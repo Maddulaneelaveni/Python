@@ -83,3 +83,12 @@ print(result)
 # The club only allows people who are 21 years old or older.
 # Write a function that returns True if a person's age is 21 or above, otherwise returns False.
  
+def can_enter_club(age):
+    return age>=21
+# Test the function
+age=int(input("Enter your age:"))
+if can_enter_club(age):
+    print("Allowed to enter the club")
+else:
+    print("Not allowed to enter the club")
+    
