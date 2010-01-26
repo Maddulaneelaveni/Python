@@ -76,4 +76,10 @@ for ch in s:
     if ch!=" ":
         result+=ch
 print(result)
+
+# PROGRAMIZE CONTEST-PROBLEMS
+
+# 1.Write a function to determine if a person can enter a club.
+# The club only allows people who are 21 years old or older.
+# Write a function that returns True if a person's age is 21 or above, otherwise returns False.
  
