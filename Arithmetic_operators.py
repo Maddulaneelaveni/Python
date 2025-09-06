@@ -4,7 +4,11 @@
 
 # Problems
 
+<<<<<<< HEAD
 # 1.Calculate the area of a rectangle given length and width
+=======
+# 1.area of rectangle
+>>>>>>> ac44fcb (new file added)
 l=5
 b=3
 area=l*b
