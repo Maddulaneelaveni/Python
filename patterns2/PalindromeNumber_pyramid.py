@@ -5,7 +5,6 @@
 #   12321
 #  1234321
 # 123454321
-
 n=5
 for i in range(1, n+1):
     print(" "*(n-i), end="")        # Spaces
@@ -15,3 +14,6 @@ for i in range(1, n+1):
         print(j, end="")           # Decreasing numbers
     print()
 print()
+
+
+
