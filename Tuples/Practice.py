@@ -33,4 +33,12 @@ else:
 
 
 
+# 5.Zip Two Lists into a Tuple
+names = ["Neelaveni", "Vinaya", "Mokshi"]
+scores = [85, 92, 78]
+# Zip them into tuple pairs
+zipped = tuple(zip(names, scores))
+print(zipped)
+# Output: (('Neelaveni', 85), ('Vinaya', 92), ('Mokshi', 78))
+
 
