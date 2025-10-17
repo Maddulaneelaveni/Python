@@ -6,8 +6,7 @@ for i in range(1, n + 1): # Outer loop: for each row (1 to n)
     for j in range(1, i + 1): # Inner loop : controls how many numbers to print in that row
         print(num, end=" ")  # print current number on the same line
         num += 1    # increment number for next print
-    print()   # move to next line after each row
-
+    print()   
 # output:
 #1
 #2 3
