@@ -40,4 +40,19 @@ fruits.update(["orange", "grape"])
 print(fruits)
 
 
+# Removing Elements:
+
+fruits = {"apple", "banana", "cherry"}
+fruits.remove("banana")  # Removes specific item, raises error if not found
+fruits.discard("apple")  # Removes specific item, NO error if not found
+fruits.pop()             # Removes a random element
+fruits.clear()           # Removes all elements
+print(fruits)
+
+
+
+
+
+
+
 
