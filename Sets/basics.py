@@ -86,6 +86,10 @@ print(A.symmetric_difference(B))
 
 
 
+# SET COMPARISON OPERATORS:
+
+# 1. A==B  : check if sets are equal and return a boolean value(True or False) Ex:{1,2} == {2,1} , returns True
+
 
 
 
