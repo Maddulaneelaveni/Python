@@ -90,7 +90,8 @@ print(A.symmetric_difference(B))
 
 # 1. A==B  : check if sets are equal, and return a boolean value(True or False) Ex:{1,2} == {2,1} , returns True
 # 2. A!=B  : Not equal -> Ex:{1,2} != {1,3}, True
-
+# 3. A<B   : A is subset of B -> Ex: {1,2} < {1,2,3} , True
+# 4. A>B   : A is superset of B -> Ex: {1,2,3} > {1,2},	True
 
 
 
