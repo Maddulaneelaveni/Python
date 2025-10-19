@@ -50,6 +50,44 @@ fruits.clear()           # Removes all elements
 print(fruits)
 
 
+# Set Operations:
+A={1, 2, 3, 4}
+B={3, 4, 5, 6}
+
+# 1.Union: | or .union():
+# Combines elements from both sets (no duplicates).
+
+# Ex:
+print(A | B)
+print(A.union(B))
+
+# 2.Intersection : & or .intersection():
+# Elements common to both sets.
+
+# Ex:
+print(A & B)
+print(A.intersection(B))
+
+
+# 3.Difference : - or .difference():
+# Elements in A but not in B.
+
+# Ex:
+print(A - B)
+print(A.difference(B))
+
+
+# 4.Symmetric Difference – ^ or .symmetric_difference():
+# Elements in either A or B, but not both.
+
+# Ex:
+print(A ^ B)
+print(A.symmetric_difference(B))
+
+
+
+
+
 
 
 
