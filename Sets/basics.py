@@ -104,6 +104,11 @@ print(squares)
 
 
 
+# Frozen Set:
+# A frozenset is immutable — elements cannot be added or removed.
+# We can perform operations like union, intersection, etc., but cannot modify it.
+
+
 
 
 
