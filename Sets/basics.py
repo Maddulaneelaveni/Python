@@ -95,6 +95,14 @@ print(A.symmetric_difference(B))
 
 
 
+# Set Comphrehension:
+# Just like list comprehension, we can build sets concisely.
+
+# Ex:
+squares = {x**2 for x in range(6)}
+print(squares)
+
+
 
 
 
