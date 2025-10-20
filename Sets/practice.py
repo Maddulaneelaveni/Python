@@ -19,4 +19,10 @@ common = A & B
 print(common)
 
 
+# Remove Multiple Elements
+
+numbers = {1, 2, 3, 4, 5}
+# Remove multiple elements using difference_update
+numbers.difference_update({2, 3})
+print(numbers)
 
