@@ -26,3 +26,12 @@ numbers = {1, 2, 3, 4, 5}
 numbers.difference_update({2, 3})
 print(numbers)
 
+
+
+# Find Students Who Play Either Cricket or Football but Not Both
+
+cricket = {"John", "Alex", "Sam", "Mike"}
+football = {"Alex", "Mike", "Bob", "Tom"}
+# Symmetric difference
+only_one_game = cricket ^ football  # ^ finds students who play only one of the games.
+print(only_one_game)   
