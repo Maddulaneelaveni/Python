@@ -50,3 +50,11 @@ print("B after removing common:", B_only)
 
 
 # Find Non-Repeating Characters in a String
+text = "Neelaveni"
+# Set of all characters
+all_chars = set(text)
+# Set of duplicate characters
+duplicates = {ch for ch in text if text.count(ch) > 1}
+# Non-repeating = all - duplicates
+unique_chars = all_chars - duplicates
+print(unique_chars)
