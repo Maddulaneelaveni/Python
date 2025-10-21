@@ -58,3 +58,17 @@ duplicates = {ch for ch in text if text.count(ch) > 1}
 # Non-repeating = all - duplicates
 unique_chars = all_chars - duplicates
 print(unique_chars)
+
+
+
+# Find Common Languages Known by All Employees
+
+employees = [
+    {"Python", "Java", "C++"},
+    {"Python", "C"},
+    {"Python", "Java", "C"}
+]
+# Find languages everyone knows → intersection of all sets
+common_languages = set.intersection(*employees) #set.intersection(*employees) finds common elements across all sets.
+print("Common languages:", common_languages)
+print("Common languages:", common_languages)
