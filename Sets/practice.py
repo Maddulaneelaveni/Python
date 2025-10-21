@@ -35,3 +35,14 @@ football = {"Alex", "Mike", "Bob", "Tom"}
 # Symmetric difference
 only_one_game = cricket ^ football  # ^ finds students who play only one of the games.
 print(only_one_game)   
+
+
+
+# Remove Common Elements from Two Sets
+A = {1, 2, 3, 4}
+B = {3, 4, 5, 6}
+# Remove common elements from both sets
+A_only = A - B
+B_only = B - A
+print("A after removing common:", A_only)
+print("B after removing common:", B_only)
