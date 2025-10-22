@@ -90,3 +90,15 @@ store1 = {"Ram", "Priya", "Arun", "Neha"}
 store2 = {"Priya", "Neha", "Kiran", "Meena"}
 unique_customers = store1 ^ store2
 print("Unique customers:", unique_customers)
+
+
+
+# Find Words Appearing in Both Sentences
+
+sentence1 = "My name is neelaveni"
+sentence2 = "My name is neelavei and im pursuing btech"
+# Convert to sets
+set1 = set(sentence1.split())
+set2 = set(sentence2.split())
+common = set1 & set2 #  Common words
+print("Common words:", common)
