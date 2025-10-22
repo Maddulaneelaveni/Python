@@ -72,3 +72,12 @@ employees = [
 common_languages = set.intersection(*employees) #set.intersection(*employees) finds common elements across all sets.
 print("Common languages:", common_languages)
 print("Common languages:", common_languages)
+
+
+
+# Find Users Active on Both Websites
+
+site_A_users = {"A101", "A102", "A103", "A104"}
+site_B_users = {"A103", "A104", "A105"}
+active_on_both = site_A_users & site_B_users # intersection
+print("Users on both sites:", active_on_both)
