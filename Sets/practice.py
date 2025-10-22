@@ -81,3 +81,12 @@ site_A_users = {"A101", "A102", "A103", "A104"}
 site_B_users = {"A103", "A104", "A105"}
 active_on_both = site_A_users & site_B_users # intersection
 print("Users on both sites:", active_on_both)
+
+
+
+# Identify Customers Who Bought Products from Only One Store
+
+store1 = {"Ram", "Priya", "Arun", "Neha"}
+store2 = {"Priya", "Neha", "Kiran", "Meena"}
+unique_customers = store1 ^ store2
+print("Unique customers:", unique_customers)
