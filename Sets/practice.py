@@ -107,3 +107,12 @@ print("Common words:", common)
 
 # Unique Visitors Count Across Multiple Days
 
+day1 = {"user1", "user2", "user3"}
+day2 = {"user2", "user4"}
+day3 = {"user1", "user5", "user2"}
+# Combine all unique visitors
+unique_visitors = set.union(day1, day2, day3)
+print("Unique visitors:", unique_visitors)
+print("Total count:", len(unique_visitors))
+
+
