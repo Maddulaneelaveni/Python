@@ -11,4 +11,14 @@ my_dict = {key1: value1, key2: value2, key3: value3}
 # 3.Indexed by keys
 # 4.No duplicate keys
 
-    
+
+# Creating Dictionaries:
+
+# 1.Using {} braces:
+student = {"name": "Neelaveni", "age": 22, "course": "Data Science"}
+
+# 2.Using the dict() constructor:
+student = dict(name="Neelaveni", age=22, course="Data Science")
+
+# 3.Creating an empty dictionary:
+student = {}
