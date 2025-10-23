@@ -4,3 +4,11 @@
 
 #syntax:
 my_dict = {key1: value1, key2: value2, key3: value3}
+
+# Characteristics:
+# 1.Unordered
+# 2.Mutable
+# 3.Indexed by keys
+# 4.No duplicate keys
+
+    
