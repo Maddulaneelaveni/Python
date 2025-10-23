@@ -22,3 +22,13 @@ student = dict(name="Neelaveni", age=22, course="Data Science")
 
 # 3.Creating an empty dictionary:
 student = {}
+
+
+# Accessing Dictionary Items:
+
+# 1. Using keys:
+print(student["name"])   
+
+# 2. Using .get() method :
+print(student.get("age"))        
+print(student.get("grade", "N/A"))  
