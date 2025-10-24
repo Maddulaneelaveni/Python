@@ -49,12 +49,31 @@ student.update({"course": "AI", "city": "Hyderabad"})
 
 # Removing Items;
 
-# 1. pop(key)
+# 1.pop(key)
 # 2.del
 # 3.popitem()
 # 4.clear()
 
 
+# Looping Through a Dictionary
 
+# 1.Loop through keys:
+for key in student:
+    print(key)
+
+# Loop through values:
+for value in student.values():
+    print(value)
+
+# Loop through both keys and values:
+for key, value in student.items():
+    print(key, ":", value)
+
+
+
+# Dictionary Comprehension:
+
+squares = {x: x*x for x in range(1, 6)}
+print(squares)  # {1: 1, 2: 4, 3: 9, 4: 16, 5: 25}
 
 
