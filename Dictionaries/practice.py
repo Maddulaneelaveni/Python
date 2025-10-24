@@ -7,4 +7,4 @@ print("Name:", student["name"])     # prints the value of 'name'
 print("Age:", student["age"])       # prints the value of 'age'
 
 
-# 2.
+# 2.Count Frequency of Each Character in a String
