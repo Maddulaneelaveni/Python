@@ -32,3 +32,29 @@ print(student["name"])
 # 2. Using .get() method :
 print(student.get("age"))        
 print(student.get("grade", "N/A"))  
+
+
+
+# Adding and Updating Items:
+
+# Add new key-value pair:
+student["grade"] = "A"
+
+# Update existing key:
+student["age"] = 23
+
+# Update multiple at once:
+student.update({"course": "AI", "city": "Hyderabad"})
+
+
+# Removing Items;
+
+# 1. pop(key)
+# 2.del
+# 3.popitem()
+# 4.clear()
+
+
+
+
+
