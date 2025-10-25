@@ -22,3 +22,12 @@ print(freq)
 scores = {"Neelu": 88, "Mokshi": 92, "Vinya": 85, "Manu": 95}
 top_student = max(scores, key=scores.get)  # # Use max() with key parameter
 print("Top student:", top_student)
+
+
+
+# Convert Two Lists into a Dictionary
+
+names = ["Alice", "Bob", "Charlie"]
+marks = [85, 90, 88]
+result = dict(zip(names, marks)) # Use zip() to pair items and dict() to convert
+print(result)
