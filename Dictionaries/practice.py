@@ -13,3 +13,9 @@ freq = {}  # Empty dictionary to store frequency
 for char in word:
     freq[char] = freq.get(char, 0) + 1  # get() returns 0 if char not found, then add 1
 print(freq)
+
+
+
+# Find the Key with the Maximum Value
+# Find which student scored the highest.
+
