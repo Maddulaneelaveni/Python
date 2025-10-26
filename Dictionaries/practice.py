@@ -35,6 +35,31 @@ print(result)
 
 
 # 5.Access Value 
+
 customer = {"name": "Neelaveni", "email": "neelaveni@example.com"}
 print("Name:", customer.get("name"))
 # .get() return value if key exists, if not it returns the default message instead of error.
+
+
+
+# 6.Word Frequency Counter (count how many times each word appears.)
+
+sentence = "Hello python, python is easy"
+words = sentence.split() # Split sentence into individual words
+word_count = {} # Create an empty dictionary for word count
+for word in words: #Loop through each word and count frequency
+    word_count[word] = word_count.get(word, 0) + 1
+print(word_count)
+
+
+
+# Merge Sales Data:
+# two months’ sales data and need a combined total.
+
+jan_sales = {"apple": 40, "banana": 50}
+feb_sales = {"banana": 30, "cherry": 25}
+combined = {} # Create an empty dictionary for combined data
+# Combine both using set union of keys
+for item in set(jan_sales) | set(feb_sales):
+    combined[item] = jan_sales.get(item, 0) + feb_sales.get(item, 0)
+print(combined)
