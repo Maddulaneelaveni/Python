@@ -69,3 +69,11 @@ print(combined)
 # Sort Employee Salaries
 # employee names with salaries and want to show them sorted by salary.
 
+salaries = {"Mokshi": 45000, "Vinya": 55000, "Neelu": 40000}
+# Sort dictionary by value (salary)
+sorted_salaries = dict(sorted(salaries.items(), key=lambda x: x[1]))
+print(sorted_salaries)
+
+# salaries.items() → returns key-value pairs.
+# lambda x: x[1] → sorts by salary (value).
+# dict(sorted(...)) → converts result back to a dictionary.
