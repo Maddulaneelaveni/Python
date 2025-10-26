@@ -16,7 +16,7 @@ print(freq)
 
 
 
-# Find the Key with the Maximum Value
+# 3.Find the Key with the Maximum Value
 # Find which student scored the highest.
 
 scores = {"Neelu": 88, "Mokshi": 92, "Vinya": 85, "Manu": 95}
@@ -25,9 +25,15 @@ print("Top student:", top_student)
 
 
 
-# Convert Two Lists into a Dictionary
+# 4.Convert Two Lists into a Dictionary
 
-names = ["Alice", "Bob", "Charlie"]
+names = ["Neelu", "Mokshi", "Vinni"]
 marks = [85, 90, 88]
 result = dict(zip(names, marks)) # Use zip() to pair items and dict() to convert
 print(result)
+
+
+
+# 5.Access Value 
+customer = {"name": "Neelaveni", "email": "neelaveni@example.com"}
+print("Name:", customer.get("name"))
