@@ -63,3 +63,9 @@ combined = {} # Create an empty dictionary for combined data
 for item in set(jan_sales) | set(feb_sales):
     combined[item] = jan_sales.get(item, 0) + feb_sales.get(item, 0)
 print(combined)
+
+
+
+# Sort Employee Salaries
+# employee names with salaries and want to show them sorted by salary.
+
