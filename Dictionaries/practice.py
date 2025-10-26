@@ -37,3 +37,4 @@ print(result)
 # 5.Access Value 
 customer = {"name": "Neelaveni", "email": "neelaveni@example.com"}
 print("Name:", customer.get("name"))
+# .get() return value if key exists, if not it returns the default message instead of error.
