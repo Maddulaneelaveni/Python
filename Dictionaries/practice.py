@@ -77,3 +77,9 @@ print(sorted_salaries)
 # salaries.items() → returns key-value pairs.
 # lambda x: x[1] → sorts by salary (value).
 # dict(sorted(...)) → converts result back to a dictionary.
+
+
+
+# Filter Products by Price Range
+# You have a price list and want products below ₹1000.
+
