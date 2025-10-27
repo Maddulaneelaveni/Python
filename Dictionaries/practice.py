@@ -96,3 +96,9 @@ print(affordable)
 
 
 # Invert a Dictionary (Swap Keys and Values)
+
+country_codes = {"IN": "India", "US": "United States", "JP": "Japan"}
+# Swap keys ↔ values
+reversed_dict = {v: k for k, v in country_codes.items()}
+print(reversed_dict)
+
