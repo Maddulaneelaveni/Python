@@ -83,3 +83,12 @@ print(sorted_salaries)
 # Filter Products by Price Range
 # You have a price list and want products below ₹1000.
 
+products = {
+    "Mouse": 500,
+    "Keyboard": 1200,
+    "Headphones": 800,
+    "Monitor": 7000
+}
+affordable = {item: price for item, price in products.items() if price < 1000}   # Filter using dictionary comprehension
+print(affordable)
+
