@@ -91,4 +91,8 @@ products = {
 }
 affordable = {item: price for item, price in products.items() if price < 1000}   # Filter using dictionary comprehension
 print(affordable)
+# Dictionary comprehension filters and constructs new dictionaries 
 
+
+
+# Invert a Dictionary (Swap Keys and Values)
