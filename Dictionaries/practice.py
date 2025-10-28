@@ -102,3 +102,6 @@ country_codes = {"IN": "India", "US": "United States", "JP": "Japan"}
 reversed_dict = {v: k for k, v in country_codes.items()}
 print(reversed_dict)
 
+
+
+# Count Customers by City
