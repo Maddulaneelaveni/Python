@@ -105,3 +105,16 @@ print(reversed_dict)
 
 
 # Count Customers by City
+
+customers = [
+    {"name": "Mokshii", "city": "Hyderabad"},
+    {"name": "vinaya", "city": "Bangalore"},
+    {"name": "Neelaveni", "city": "Hyderabad"},
+    {"name": "Manu", "city": "Chennai"},
+    {"name": "taruni", "city": "Bangalore"}
+]
+city_counts = {}
+for c in customers:
+    city = c["city"]
+    city_counts[city] = city_counts.get(city, 0) + 1
+print(city_counts)
