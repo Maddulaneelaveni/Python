@@ -121,4 +121,17 @@ print(city_counts)
 
 
 
-# 12.
+# 12.Nested Dictionary – Employee Database
+# You manage employee data (name, department, salary) and want to access specific details easily.
+
+employees = {
+    "E101": {"name": "Viswanath", "dept": "Data", "salary": 60000},
+    "E102": {"name": "Neelaveni", "dept": "Analytics", "salary": 65000},
+    "E103": {"name": "Ravi", "dept": "Development", "salary": 55000}
+}
+# Access Neelaveni's department
+print(employees["E102"]["dept"])
+# Give a raise to all employees
+for emp in employees.values():
+    emp["salary"] += 5000
+print(employees)
