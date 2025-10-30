@@ -6,4 +6,7 @@ def function_name(parameters):
     # function body
     return value
 
+# Example:
+def greet():
+    print("Hello, Viswanath!")
 
