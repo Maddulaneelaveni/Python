@@ -53,7 +53,7 @@ print(word_count)
 
 
 
-# Merge Sales Data:
+# 7. Merge Sales Data:
 # two months’ sales data and need a combined total.
 
 jan_sales = {"apple": 40, "banana": 50}
@@ -66,7 +66,7 @@ print(combined)
 
 
 
-# Sort Employee Salaries
+# 8.Sort Employee Salaries
 # employee names with salaries and want to show them sorted by salary.
 
 salaries = {"Mokshi": 45000, "Vinya": 55000, "Neelu": 40000}
@@ -80,7 +80,7 @@ print(sorted_salaries)
 
 
 
-# Filter Products by Price Range
+#9. Filter Products by Price Range
 # You have a price list and want products below ₹1000.
 
 products = {
@@ -95,7 +95,7 @@ print(affordable)
 
 
 
-# Invert a Dictionary (Swap Keys and Values)
+# 10.Invert a Dictionary (Swap Keys and Values)
 
 country_codes = {"IN": "India", "US": "United States", "JP": "Japan"}
 # Swap keys ↔ values
@@ -104,7 +104,7 @@ print(reversed_dict)
 
 
 
-# Count Customers by City
+# 11.Count Customers by City
 
 customers = [
     {"name": "Mokshii", "city": "Hyderabad"},
@@ -118,3 +118,7 @@ for c in customers:
     city = c["city"]
     city_counts[city] = city_counts.get(city, 0) + 1
 print(city_counts)
+
+
+
+# 12.
