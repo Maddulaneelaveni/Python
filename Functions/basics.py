@@ -39,3 +39,21 @@ def greet():
 def greet(name):  # 'name' is a parameter
     print(f"Hello, {name}!")
 greet("Neelaveni")  # "Neelaveni" is an argument
+
+
+
+# Types of Arguments
+
+# 1. Positional Arguments: Passed in the order defined.(oreder matters)
+def student(name, age):
+    print(name, age)
+student("Neelaveni", 20)  
+
+# 2. Keyword Arguments: Passed using parameter names (order doesn't matter)
+student(age=20, name="Neelaveni")
+
+# 3. Default Arguments: Parameters with default values if no argument is provided.
+def student(name, age=18):
+    print(name, age)
+student("Neelaveni")  # uses default age
+student("Mokshi", 20)  # overrides default age
