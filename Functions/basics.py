@@ -17,3 +17,13 @@ def function_name(parameters):
 def greet():
     print("Hello, Neelaveni!")
 
+# we use greet() to call the function
+
+# Function Components:
+
+# 1.def: Keyword to define a function.
+# 2. function_name : Identifier to call the function later.
+# parameters: Variables that receive input values
+# 4. function body: Indented block of code that performs the task.
+# 5. docstring (Optional): description of the function's purpose.
+# 6. return (Optional): statement to send back a value to the caller.
