@@ -57,3 +57,24 @@ def student(name, age=18):
     print(name, age)
 student("Neelaveni")  # uses default age
 student("Mokshi", 20)  # overrides default age
+
+# 4. Variable-length Arguments: Accepts arbitrary number of arguments using *args and **kwargs
+# *args : for multiple positional arguments
+# **kwargs : for multiple keyword arguments
+
+def demo(*args, **kwargs):
+    print("args:", args)
+    print("kwargs:", kwargs)
+
+demo(1, 2, 3, name="Viswanath", role="Data Analyst")
+
+# Return Statement
+# The return keyword is used to exit a function and return a value to the caller.
+# If no return is specified, the function returns None by default.
+
+def add(a, b):
+    return a + b
+
+result = add(10, 5)
+print(result)
+
