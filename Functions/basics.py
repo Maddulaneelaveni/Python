@@ -27,3 +27,15 @@ def greet():
 # 4. function body: Indented block of code that performs the task.
 # 5. docstring (Optional): description of the function's purpose.
 # 6. return (Optional): statement to send back a value to the caller.
+
+
+# Parameters vs Arguments:
+
+# parameters are variables listed inside parentheses in the function definition.
+
+# Arguments are the actual values passes when calling the function.
+
+# Example:
+def greet(name):  # 'name' is a parameter
+    print(f"Hello, {name}!")
+greet("Neelaveni")  # "Neelaveni" is an argument
