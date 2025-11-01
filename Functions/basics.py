@@ -78,3 +78,6 @@ def add(a, b):
 result = add(10, 5)
 print(result)
 
+
+
+# Scope and Lifetime of Variables
