@@ -81,3 +81,6 @@ print(result)
 
 
 # Scope and Lifetime of Variables
+
+# Local variables → declared inside a function
+# Global variables → declared outside all functions
