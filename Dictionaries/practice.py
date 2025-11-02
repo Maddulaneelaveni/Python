@@ -105,7 +105,7 @@ print(reversed_dict)
 
 
 # 11.Count Customers by City
-
+# You have a list of customers with cities and want to know how many are in each.
 customers = [
     {"name": "Mokshii", "city": "Hyderabad"},
     {"name": "vinaya", "city": "Bangalore"},
@@ -118,6 +118,9 @@ for c in customers:
     city = c["city"]
     city_counts[city] = city_counts.get(city, 0) + 1
 print(city_counts)
+# output:
+# {'Hyderabad': 2, 'Bangalore': 2, 'Chennai': 1}
+
 
 
 
@@ -135,3 +138,6 @@ print(employees["E102"]["dept"])
 for emp in employees.values():
     emp["salary"] += 5000
 print(employees)
+
+
+

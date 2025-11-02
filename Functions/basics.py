@@ -90,4 +90,14 @@ x = 10  # global
 def show():
     y = 5  # local
     print(x + y)
-show()
+show()  # 15
+
+# To modify a global variable inside a function:
+x = 10
+def modify():
+    global x
+    x = x + 5
+
+modify()
+print(x)  # 15
+
