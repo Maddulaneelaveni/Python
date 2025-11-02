@@ -84,3 +84,10 @@ print(result)
 
 # Local variables → declared inside a function
 # Global variables → declared outside all functions
+# Variables defined inside a function are local to that function and cannot be accessed outside.
+
+x = 10  # global
+def show():
+    y = 5  # local
+    print(x + y)
+show()
