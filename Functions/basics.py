@@ -101,3 +101,20 @@ def modify():
 modify()
 print(x)  # 15
 
+
+
+# Nested Functions (Inner Functions)
+# Functions defined inside other functions.
+def outer():
+    print("Outer function")
+    def inner():
+        print("Inner function")
+    inner()
+outer()
+# output:
+# Outer function
+# Inner function
+
+# Inner functions are often used for encapsulation and decorators.
+
+
