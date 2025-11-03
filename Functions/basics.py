@@ -118,3 +118,17 @@ outer()
 # Inner functions are often used for encapsulation and decorators.
 
 
+
+# Lambda (Anonymous) Functions :
+
+# Small, unnamed functions defined using the lambda keyword.
+
+# Syntax: lambda parameters: expression
+# Lambda functions are one-liners with no def or return.
+# Used for quick operations.
+
+# ex:
+square = lambda x: x * x
+print(square(6))
+# output: 36
+
