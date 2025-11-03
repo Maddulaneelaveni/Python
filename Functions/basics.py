@@ -132,3 +132,22 @@ square = lambda x: x * x
 print(square(6))
 # output: 36
 
+# Lambda with map() function
+
+nums = [1, 2, 3, 4, 5]
+doubled = list(map(lambda x: x*2, nums))
+print(doubled)
+# output: [2, 4, 6, 8, 10]
+
+# Lambda with filter() function:
+even_nums = list(filter(lambda x: x % 2 == 0, nums))
+print(even_nums)
+# output: [2, 4]
+
+# Lambda with reduce() function:
+from functools import reduce
+product = reduce(lambda x, y: x * y, nums)
+print(product)  # output: 120   
+
+
+
