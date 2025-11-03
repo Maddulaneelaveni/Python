@@ -151,3 +151,12 @@ print(product)  # output: 120
 
 
 
+# Recursion:
+# A function calling itself is recursive.
+
+# ex:
+def factorial(n):
+    if n == 0 or n == 1:
+        return 1
+    else:
+        return n * factorial(n - 1)
