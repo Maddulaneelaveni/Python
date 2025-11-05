@@ -12,3 +12,16 @@ def check_even_odd(num):
     else:
         return "Odd"
 print(check_even_odd(9))  # Output: Odd
+
+
+
+# Find the Largest of Three Numbers
+
+def largest(a,b,c):
+    if a >= b and a >= c:
+        return a
+    elif b >= a and b >= c:
+        return b
+    else:
+        return c
+print(largest(10, 25, 15))  # Output: 25
