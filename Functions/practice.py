@@ -37,3 +37,11 @@ def factorial(n):
         return n * factorial(n-1)   # using recursion
     
 print(factorial(8))  # Output: 40320
+
+
+
+# Return Sum of a List
+
+def sum_list(numbers):
+    return sum(numbers)
+print(sum_list([2,4,6,8]))  # Output: 20
