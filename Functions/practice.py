@@ -15,7 +15,7 @@ print(check_even_odd(9))  # Output: Odd
 
 
 
-# Find the Largest of Three Numbers
+# 3. Find the Largest of Three Numbers
 
 def largest(a,b,c):
     if a >= b and a >= c:
@@ -25,3 +25,15 @@ def largest(a,b,c):
     else:
         return c
 print(largest(10, 25, 15))  # Output: 25
+
+
+
+# 4. Calculate Factorial of a Number
+
+def factorial(n):
+    if n == 1:
+        return 1
+    else:
+        return n * factorial(n-1)
+    
+print(factorial(8))  # Output: 40320
