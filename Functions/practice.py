@@ -40,8 +40,12 @@ print(factorial(8))  # Output: 40320
 
 
 
-# Return Sum of a List
+# 5.Return Sum of a List
 
 def sum_list(numbers):
-    return sum(numbers)
+    return sum(numbers)  # using built-in sum function
 print(sum_list([2,4,6,8]))  # Output: 20
+
+
+
+# 6.Count Vowels in a String
