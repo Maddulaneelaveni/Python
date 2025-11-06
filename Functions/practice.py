@@ -49,3 +49,13 @@ print(sum_list([2,4,6,8]))  # Output: 20
 
 
 # 6.Count Vowels in a String
+
+# Loops thrpugh each character and checks if it's a vowel.
+def count_vowels(s):
+    vowels="aeiouAEIOU"
+    count=0
+    for ch in s:
+        if ch in vowels:
+            count += 1
+    return count
+print(count_vowels("Hello World"))  # Output: 3
