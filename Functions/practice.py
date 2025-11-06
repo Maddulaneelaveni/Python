@@ -63,3 +63,10 @@ print(count_vowels("Hello World"))  # Output: 3
 
 
 # 7.Find Maximum of Two Numbers
+
+def max_two(a,b):
+    if a>b:
+        return a
+    else:
+        return b
+print(max_two(10,25)) # Output: 25
