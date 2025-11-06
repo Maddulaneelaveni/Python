@@ -59,3 +59,7 @@ def count_vowels(s):
             count += 1
     return count
 print(count_vowels("Hello World"))  # Output: 3
+
+
+
+# 7.Find Maximum of Two Numbers
