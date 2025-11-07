@@ -70,3 +70,8 @@ def max_two(a,b):
     else:
         return b
 print(max_two(10,25)) # Output: 25
+
+
+
+# 8.Check if number is prime
+
