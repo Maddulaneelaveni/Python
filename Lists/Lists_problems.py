@@ -220,7 +220,17 @@ print("Frequencies:", freq)
 
 
 
- 
+ # 18.Remove All Occurrences of an Element
+
+ nums = [1, 2, 3, 2, 4, 2, 5]
+# List comprehension with condition
+# It keeps only the numbers that are NOT equal to 2
+new_list = [n for n in nums if n != 2]
+print("After removing 2:", new_list)
+
+# output:
+# After removing 2: [1, 3, 4, 5]
+
 
 # 19.Find Pairs Whose Sum Equals a Target
 
