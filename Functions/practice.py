@@ -87,3 +87,5 @@ print(is_prime(11))  # Output: True
 
 
 # 9.Word Capitalizer
+
+# Capitalize the first letter of every word in a sentence.
