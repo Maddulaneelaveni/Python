@@ -83,3 +83,7 @@ def is_prime(num):
             return False
     return True
 print(is_prime(11))  # Output: True
+
+
+
+# 9.Word Capitalizer
