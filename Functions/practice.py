@@ -92,4 +92,3 @@ print(is_prime(11))  # Output: True
 def capitalize_words(sentence):
     return ' '.join(word.capitalize() for word in sentence.split())
 print(capitalize_words("python functions are powerful"))
-# Output: Python Functions Are Powerful
