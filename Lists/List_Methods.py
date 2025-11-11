@@ -86,4 +86,4 @@ matrix = [
 ]
 
 print(matrix[0])  # [1, 2, 3]
-print(matrix[1][2])  
+print(matrix[1][2])  # 6 (2nd row, 3rd column)
