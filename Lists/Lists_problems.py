@@ -232,7 +232,20 @@ print("After removing 2:", new_list)
 # After removing 2: [1, 3, 4, 5]
 
 
+# 19.Find Pairs Whose Sum Equals a Target
 
+nums = [2, 4, 3, 7, 1, 5]
+target = 6
+pairs = []
+# Loop with two indexes: i and j
+for i in range(len(nums)):
+    for j in range(i+1, len(nums)):  # j starts from i+1 (to avoid repeating same pair)
+        if nums[i] + nums[j] == target:
+            pairs.append((nums[i], nums[j]))  # store the pair as a tuple
+print("Pairs with sum", target, ":", pairs)
+
+# output:
+# Pairs with sum 6 : [(2, 4), (1, 5)]
 
 
 
