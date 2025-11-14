@@ -105,7 +105,7 @@ print(reversed_dict)
 
 
 # 11.Count Customers by City
-
+git commit --date="2025-11-15 22:00:00" -m "code updated"
 customers = [
     {"name": "Mokshii", "city": "Hyderabad"},
     {"name": "vinaya", "city": "Bangalore"},
