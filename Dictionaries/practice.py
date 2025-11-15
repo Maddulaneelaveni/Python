@@ -105,7 +105,7 @@ print(reversed_dict)
 
 
 # 11.Count Customers by City
-# You have a list of customers with cities and want to know how many are in each.
+
 customers = [
     {"name": "Mokshii", "city": "Hyderabad"},
     {"name": "vinaya", "city": "Bangalore"},
