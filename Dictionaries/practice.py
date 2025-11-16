@@ -125,7 +125,6 @@ print(city_counts)
 
 
 # 12.Nested Dictionary – Employee Database
-# You manage employee data (name, department, salary) and want to access specific details easily.
 
 employees = {
     "E101": {"name": "Viswanath", "dept": "Data", "salary": 60000},
