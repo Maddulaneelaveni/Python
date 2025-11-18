@@ -232,7 +232,7 @@ print("After removing 2:", new_list)
 # After removing 2: [1, 3, 4, 5]
 
 
-# 19.Find Pairs Whose Sum Equals a Target
+
 
 nums = [2, 4, 3, 7, 1, 5]
 target = 6
