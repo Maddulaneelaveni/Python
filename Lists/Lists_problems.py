@@ -220,8 +220,7 @@ print("Frequencies:", freq)
 
 
 
- # 18.Remove All Occurrences of an Element
-
+ 
  nums = [1, 2, 3, 2, 4, 2, 5]
 # List comprehension with condition
 # It keeps only the numbers that are NOT equal to 2
