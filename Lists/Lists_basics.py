@@ -67,7 +67,7 @@ print(5 not in a)  # True
 
 
 
-# List Slicing
+
 
 letters = ["a", "b", "c", "d", "e"]
 
