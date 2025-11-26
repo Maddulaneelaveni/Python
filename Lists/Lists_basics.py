@@ -67,4 +67,12 @@ print(5 not in a)  # True
 
 
 
+# List Slicing
+
+letters = ["a", "b", "c", "d", "e"]
+
+print(letters[1:4])   # ['b', 'c', 'd'] (from index 1 to 3)
+print(letters[:3])    # ['a', 'b', 'c']
+print(letters[2:])    # ['c', 'd', 'e']
+print(letters[::-1])  # ['e', 'd', 'c', 'b', 'a'] (reverse)
 
