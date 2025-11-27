@@ -21,19 +21,6 @@
 # Heterogeneous → Different data types in the same list.
 
 
-# 1. Creating a list:
-
-# Empty list
-my_list = []
-
-# List of integers
-numbers = [1, 2, 3, 4, 5]
-
-# Mixed data types
-mixed = [1, "hello", 3.14, True]
-
-# Nested list (list inside list)
-nested = [1, [2, 3], [4, 5]]
 
 
 # 2.Accessing List Elements
