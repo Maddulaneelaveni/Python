@@ -151,8 +151,6 @@ print(product)  # output: 120
 
 
 
-# Recursion:
-# A function calling itself is recursive.
 
 # ex:
 def factorial(n):
