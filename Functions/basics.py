@@ -144,10 +144,7 @@ even_nums = list(filter(lambda x: x % 2 == 0, nums))
 print(even_nums)
 # output: [2, 4]
 
-# Lambda with reduce() function:
-from functools import reduce
-product = reduce(lambda x, y: x * y, nums)
-print(product)  # output: 120   
+
 
 
 
