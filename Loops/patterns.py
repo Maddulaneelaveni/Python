@@ -31,12 +31,7 @@ for i in range(1,n + 1):       # loop for rows
 
 
 
-# 3.Inverted Pyramid Pattern
-# *****
-# ****
-# ***
-# **
-# *
+
 
 n=5   # number of rows
 for i in range(n,0,-1):       # loop from 5 down to 1

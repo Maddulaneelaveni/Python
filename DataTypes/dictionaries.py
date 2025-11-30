@@ -13,3 +13,6 @@ print(d)   #prints {'name': 'Neelu', 'age': 22, 'city': 'Hyderabad', 'country': 
 d["age"] = 23
 print(d)   # prints {'name': 'Neelu', 'age': 23, 'city': 'Hyderabad', 'country': 'India'}
 
+# 5. Keys & Values
+print(d.keys())    # dict_keys(['name','age','city','country'])
+print(d.values())  # dict_values(['Neelu',23,'Hyderabad','India'])
