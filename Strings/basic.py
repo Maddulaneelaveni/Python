@@ -20,3 +20,9 @@ last_letter = name[-1]  # 'i'
 print("First letter:", first_letter)
 print("Last letter:", last_letter)
 
+
+# Slicing
+substring = name[1:5]  # 'eelav'
+print("Substring from index 1 to 4:", substring)
+
+
