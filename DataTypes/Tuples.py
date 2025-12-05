@@ -6,5 +6,3 @@ print(type(t))
 print(t[1])   # 20
 
 
-# 3. Convert Tuple into List
-print(list(t))   # [10, 20, 30]
