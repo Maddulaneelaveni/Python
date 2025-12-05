@@ -15,7 +15,3 @@ s1="Hi"
 s2="Neelaveni"
 print(s1 + " " + s2)
 
-# 5. Access first letter and last letter of the string
-str="Neelaveni"
-print(str[0])
-print([-1])
