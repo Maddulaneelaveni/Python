@@ -79,3 +79,23 @@ is_not_in_city = 'z' not in city
 print("Is 'z' not in city?", is_not_in_city)
 
 
+# String Comparison
+string1 = "apple"
+string2 = "banana"
+are_equal = string1 == string2
+print("Are the two strings equal?", are_equal)
+is_greater = string1 > string2
+print("Is 'apple' greater than 'banana'?", is_greater)  
+is_less = string1 < string2
+print("Is 'apple' less than 'banana'?", is_less)    
+is_not_equal = string1 != string2
+print("Are the two strings not equal?", is_not_equal)
+
+# String Immutability
+original_string = "Hello"
+modified_string = original_string.replace("H", "J")
+print("Original string:", original_string)
+print("Modified string:", modified_string)
+# Note: Strings in Python are immutable, meaning they cannot be changed after they are created.
+
+
