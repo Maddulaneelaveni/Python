@@ -44,4 +44,17 @@ print("Replaced string:", replaced_string)
 index_of_hyphen = greeting.find("how")
 print("Index of 'how':", index_of_hyphen)   
 
+# Splitting Strings
+words = greeting.split(" ")
+print("Words in greeting:", words)
+
+# Joining Strings
+joined_string = "-".join(words)
+print("Joined string with hyphens:", joined_string)
+
+# Stripping Whitespace
+whitespace_string = "   Hello, World!   "
+stripped_string = whitespace_string.strip()
+print("Stripped string:", stripped_string)
+
 
