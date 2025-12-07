@@ -57,4 +57,25 @@ whitespace_string = "   Hello, World!   "
 stripped_string = whitespace_string.strip()
 print("Stripped string:", stripped_string)
 
+# Formatting Strings
+age = 25
+formatted_string = "My name is {} and I am {} years old.".format(name, age)
+print(formatted_string)
+f_string = f"My name is {name} and I am {age} years old."
+print(f_string)
+
+# Escape Characters
+escaped_string = "He said, \"Hello!\"\nWelcome to Python programming."
+print(escaped_string)
+
+# Raw Strings
+raw_string = r"C:\Users\Neelaveni\Documents"
+print("Raw string:", raw_string)
+
+# String Membership
+is_in_name = 'N' in name
+print("Is 'N' in name?", is_in_name)
+is_not_in_city = 'z' not in city
+print("Is 'z' not in city?", is_not_in_city)
+
 
