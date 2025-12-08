@@ -99,3 +99,16 @@ print("Modified string:", modified_string)
 # Note: Strings in Python are immutable, meaning they cannot be changed after they are created.
 
 
+# Slicing strings
+# Slicing = taking a part (substring) of the string.
+
+# Syntax:
+# string[start:end:step]
+
+# start → index where slice begins (inclusive)
+
+# end → index where slice stops (exclusive)
+
+# step → jump size (optional)
+
+
