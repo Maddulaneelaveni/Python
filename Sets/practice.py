@@ -115,10 +115,4 @@ print("Total count:", len(unique_visitors))
 
 
 
-# 12.Detect Duplicates in a List using Sets
-nums = [10, 20, 30, 10, 40, 20, 50]
-duplicates = {n for n in nums if nums.count(n) > 1} #set comprehension
-
-print("Duplicates:", duplicates)
-
 

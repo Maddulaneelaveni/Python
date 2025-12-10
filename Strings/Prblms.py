@@ -21,4 +21,14 @@ print("Last character:", last_char)
 substring = word[1:4]   # 'yth'
 print("Substring from index 1 to 3:", substring)
 
+# Change case
+s = "Hello World"
+
+print(s.lower())    # 'hello world'
+print(s.upper())    # 'HELLO WORLD'
+print(s.title())    # 'Hello World'
+print(s.capitalize())  # 'Hello world'
+print(s.swapcase()) # 'hELLO wORLD'
+print(s.casefold()) # 'hello world'
+
 
