@@ -46,6 +46,35 @@ print("Split parts:", parts)
 joined = "-".join(parts)  # 'Hello-World-Python'
 print("Joined string:", joined)
 
+# Check substring
+s = "Hello World"
+print("World" in s)    # True
+print("world" in s)    # False (case-sensitive)
+print(s.startswith("Hello"))  # True
+print(s.endswith("Python"))   # False
+print(s.count("o"))    # 2
+print(s.find("lo"))    # 3
+print(s.index("lo"))   # 3
+print(s.rfind("o"))   # 7
+print(s.rindex("o"))  # 7
+print(s.isalpha())    # False (contains space)
+print(s.isdigit())    # False
+print(s.isalnum())    # False (contains space)
+print(s.isspace())    # False
+print(s.islower())    # False
+print(s.isupper())    # False
+print(s.istitle())    # True
+print(s.isprintable()) # True
+print(s.zfill(20))    # '0000000000Hello World'
+print(s.center(30, '*'))  # '**********Hello World**********'
+print(s.ljust(30, '-'))   # 'Hello World--------------------'
+print(s.rjust(30, '-'))   # '--------------------Hello World'
+print(s.partition(" "))  # ('Hello', ' ', 'World')
+print(s.rpartition(" ")) # ('Hello', ' ', 'World')
+print(s.splitlines())   # ['Hello World']
+print(s.encode())      # b'Hello World'
+
+
 
 
 
