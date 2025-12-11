@@ -31,4 +31,21 @@ print(s.capitalize())  # 'Hello world'
 print(s.swapcase()) # 'hELLO wORLD'
 print(s.casefold()) # 'hello world'
 
+# Trim whitespace
+s = "   Hello World   "
+print(s.strip())    # 'Hello World'
+print(s.lstrip())   # 'Hello World   '
+print(s.rstrip())   # '   Hello World'
+print(s.replace(" ", ""))  # 'HelloWorld'
+
+
+# Split and Join
+s = "Hello,World,Python"
+parts = s.split(",")   # ['Hello', 'World', 'Python']
+print("Split parts:", parts)
+joined = "-".join(parts)  # 'Hello-World-Python'
+print("Joined string:", joined)
+
+
+
 
