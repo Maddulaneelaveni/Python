@@ -42,22 +42,6 @@ else:
     print("Invalid triangle")
 
 
-# 4. what is dictionary in python?
-# A dictionary in Python is an unordered collection of data stored in key-value pairs.
-# Mutable
-# Students with highest marks
-# Dictionary storing student names and their marks
-students={
-    "A":85,
-    "B":92,
-    "C":78,
-    "D":96,
-    "E":88
-}
-# Finding the student with the highest marks
-top_student=max(students, key=students.get)
-print("Student with highest marks:",top_student)
-print("Highest marks:",students[top_student])
 
 # 5. What is string in python? check palindrome or not
 # A string is sequence of characters enclosed  in single or double quotes.
