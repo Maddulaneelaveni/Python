@@ -59,21 +59,5 @@ top_student=max(students, key=students.get)
 print("Student with highest marks:",top_student)
 print("Highest marks:",students[top_student])
 
-# 5. What is string in python? check palindrome or not
-# A string is sequence of characters enclosed  in single or double quotes.
-# immutable
-# Palindrome check
-s="madam"
-if s==s[::-1]:
-    print("Palindrome")
-else:
-    print("Not a palindrome")
 
-# 6.Remove all spaces from a string
-s="I am Neelaveni"
-result=""
-for ch in s:
-    if ch!=" ":
-        result+=ch
-print(result)
  
