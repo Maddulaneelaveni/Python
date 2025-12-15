@@ -168,3 +168,14 @@ print(factorial(5))  # output: 120
 def celsius_to_fahrenheit(celsius):
     return (celsius * 9/5) + 32
 print(celsius_to_fahrenheit(25))  # output: 77.0
+
+# 2. Check Prime Number
+def is_prime(num):
+    if num <= 1:
+        return False
+    for i in range(2, int(num**0.5) + 1):
+        if num % i == 0:
+            return False
+    return True
+print(is_prime(11))  # output: True
+
