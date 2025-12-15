@@ -93,3 +93,12 @@ def capitalize_words(sentence):
     return ' '.join(word.capitalize() for word in sentence.split())
 print(capitalize_words("python functions are powerful"))
 # Output: Python Functions Are Powerful
+
+# 10.Fibonacci Sequence
+def fibonacci(n):
+    fib_sequence = [0, 1]
+    for i in range(2, n):
+        next_fib = fib_sequence[i-1] + fib_sequence[i-2]
+        fib_sequence.append(next_fib)
+    return fib_sequence[:n]
+print(fibonacci(10))  # Output: [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
