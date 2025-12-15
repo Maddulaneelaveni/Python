@@ -102,3 +102,9 @@ def fibonacci(n):
         fib_sequence.append(next_fib)
     return fib_sequence[:n]
 print(fibonacci(10))  # Output: [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
+
+# 11.Remove all spaces from a string
+def remove_spaces(s):
+    return s.replace(" ", "")
+print(remove_spaces("Hello World"))  # Output: HelloWorld
+
