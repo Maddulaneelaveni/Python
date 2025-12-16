@@ -114,5 +114,18 @@ def is_palindrome(s):
     return s == s[::-1]
 print(is_palindrome("A man a plan a canal Panama"))  # Output: True
 
+# 13.Find GCD of two numbers
+def gcd(a, b):
+    while b:
+        a, b = b, a % b
+    return a
+print(gcd(48, 18))  # Output: 6
+
+# 14.Convert Celsius to Fahrenheit
+def celsius_to_fahrenheit(celsius):
+    return (celsius * 9/5) + 32
+print(celsius_to_fahrenheit(25))  # Output: 77.0
+
+
 
 
