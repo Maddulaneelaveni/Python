@@ -108,3 +108,11 @@ def remove_spaces(s):
     return s.replace(" ", "")
 print(remove_spaces("Hello World"))  # Output: HelloWorld
 
+# 12.Check if a string is palindrome
+def is_palindrome(s):
+    s = s.replace(" ", "").lower()  # Remove spaces and convert to lowercase
+    return s == s[::-1]
+print(is_palindrome("A man a plan a canal Panama"))  # Output: True
+
+
+
