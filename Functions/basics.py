@@ -45,8 +45,6 @@ def greet(name):  # 'name' is a parameter
     print(f"Hello, {name}!")
 greet("Neelaveni")  # "Neelaveni" is an argument
 
-
-
 # Types of Arguments
 
 # 1. Positional Arguments: Passed in the order defined.(oreder matters)
@@ -76,6 +74,15 @@ demo(1, 2, 3, name="Viswanath", role="Data Analyst")
 # Return Statement
 # The return keyword is used to exit a function and return a value to the caller.
 # If no return is specified, the function returns None by default.
+
+# Positional vs Keyword (Difference)
+# Positional	     Keyword
+# Order matters	     Order doesn’t matter
+# Short	             More readable
+# Commonly used 	 Used for clarity
+
+#  Important Rule
+# Default parameters must be after non-default parameters.
 
 def add(a, b):
     return a + b
