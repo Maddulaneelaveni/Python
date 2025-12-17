@@ -35,10 +35,10 @@ def greet():
 # example:
 def add(a, b):   # a, b are parameters
     print(a + b)
-add(5, 10)  # 5, 10 are arguments
-
 
 # Arguments are the actual values passes when calling the function.
+# Example:
+add(5, 10)  # 5 and 10 are arguments
 
 # Example:
 def greet(name):  # 'name' is a parameter
