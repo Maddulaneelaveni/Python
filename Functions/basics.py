@@ -81,7 +81,7 @@ demo(1, 2, 3, name="Viswanath", role="Data Analyst")
 # Short	             More readable
 # Commonly used 	 Used for clarity
 
-#  Important Rule
+#  Important Rule :
 # Default parameters must be after non-default parameters.
 
 def add(a, b):
@@ -89,7 +89,6 @@ def add(a, b):
 
 result = add(10, 5)
 print(result)
-
 
 
 # Scope and Lifetime of Variables
@@ -130,9 +129,7 @@ outer()
 # Inner functions are often used for encapsulation and decorators.
 
 
-
 # Lambda (Anonymous) Functions :
-
 # Small, unnamed functions defined using the lambda keyword.
 
 # Syntax: lambda parameters: expression
@@ -191,3 +188,6 @@ def is_prime(num):
     return True
 print(is_prime(11))  # output: True
 
+# RETURN STATEMENT :
+# The return statement is used to send a value back from a function to the caller.
+# In simple, return sends the result of a function to where it was called.
