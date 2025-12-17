@@ -32,6 +32,11 @@ def greet():
 # Parameters vs Arguments:
 
 # parameters are variables listed inside parentheses in the function definition.
+# example:
+def add(a, b):   # a, b are parameters
+    print(a + b)
+add(5, 10)  # 5, 10 are arguments
+
 
 # Arguments are the actual values passes when calling the function.
 
