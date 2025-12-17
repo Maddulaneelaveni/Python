@@ -126,7 +126,6 @@ def celsius_to_fahrenheit(celsius):
     return (celsius * 9/5) + 32
 print(celsius_to_fahrenheit(25))  # Output: 77.0
 
-
 # 16.Check if a number is Armstrong number
 def is_armstrong(num):
     num_str = str(num)
