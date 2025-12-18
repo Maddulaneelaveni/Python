@@ -191,3 +191,10 @@ print(is_prime(11))  # output: True
 # RETURN STATEMENT :
 # The return statement is used to send a value back from a function to the caller.
 # In simple, return sends the result of a function to where it was called.
+def add(a, b):
+    return a + b
+result = add(10, 5)
+print(result)  # output: 15
+# If no return is specified, the function returns None by default.
+
+
