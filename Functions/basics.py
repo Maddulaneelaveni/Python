@@ -211,5 +211,8 @@ print(check(10))
 # return sends a value back to the caller and can be used later in the code.
 # print uses for user display whereas return uses for program logic.
 
-
+# Difference between return and break:
+# return exits a function and sends a value back to the caller.
+# break exits a loop but stays within the function. 
+# return is for functions, break is for loops.
 
