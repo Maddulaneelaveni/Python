@@ -216,3 +216,37 @@ print(check(10))
 # break exits a loop but stays within the function. 
 # return is for functions, break is for loops.
 
+# FUNCTION SCOPE & VARIABLES :
+# scope means where a variable can be accessed or used in a program.
+# Simply, scope defines the visibility of variables.
+# Types of scope:
+# 1. Local Scope: Variables defined inside a function are local to that function.
+def show():
+    x = 10   # local variable
+    print(x)
+
+show()
+# print(x)  # Error: x is not defined outside the function
+# 2. Global Scope: Variables defined outside all functions are global and accessible anywhere.
+y = 20  # global variable
+def display():
+    print(y)        
+display()  # output: 20
+print(y)   # output: 20
+
+# Note: global allows modification of global variables inside functions.
+# Local variables are preferred for temporary data, while global variables are used for shared data across functions.
+# Local variables are preffered because they are safe, avoid naming conflicts, and help in modular code design, better memory management.
+
+# LEGB Rule: Order Python follows to search variables.
+# LEGB stands for Local, Enclosing, Global, Built-in. When python searches for a variable, it follows this order.
+
+# Enclosed Scope (Nested Functions):
+def outer():
+    x = 10
+    def inner():
+        print(x)
+    inner()
+outer()
+# nner() can access outer() variables
+# x is in enclosed scope
