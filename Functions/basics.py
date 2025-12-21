@@ -247,14 +247,6 @@ print(y)   # output: 20
 # LEGB Rule: Order Python follows to search variables.
 # LEGB stands for Local, Enclosing, Global, Built-in. When python searches for a variable, it follows this order.
 
-# Enclosed Scope (Nested Functions):
-def outer():
-    x = 10
-    def inner():
-        print(x)
-    inner()
-outer()
-# nner() can access outer() variables
-# x is in enclosed scope
+
 
 
