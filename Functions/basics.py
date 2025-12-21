@@ -130,8 +130,7 @@ outer()
 
 
 # Lambda (Anonymous) Functions :
-# Small, unnamed functions defined using the lambda keyword.
-
+# Small,anonymous one-line function, unnamed functions defined using the lambda keyword.
 # Syntax: lambda parameters: expression
 # Lambda functions are one-liners with no def or return.
 # Used for quick operations.
@@ -157,7 +156,6 @@ print(even_nums)
 from functools import reduce
 product = reduce(lambda x, y: x * y, nums)
 print(product)  # output: 120   
-
 
 
 # Recursion:
