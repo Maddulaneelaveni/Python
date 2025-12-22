@@ -161,7 +161,10 @@ print(product)  # output: 120
 
 
 # Recursion:
-# A function calling itself is recursive.
+# A function calling itself is recursive function.
+# 2 important part:
+# 1. Base case (stopping condition)
+# Recursive call
 
 # ex:
 def factorial(n):
@@ -250,3 +253,5 @@ def outer():
 outer()
 # nner() can access outer() variables
 # x is in enclosed scope
+
+
