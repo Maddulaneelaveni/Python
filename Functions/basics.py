@@ -157,11 +157,16 @@ from functools import reduce
 product = reduce(lambda x, y: x * y, nums)
 print(product)  # output: 120   
 
+# Difference between lambda and normal function:
+# Normal function uses def whereas lambda function uses lambda
+# Normal fun is multiline whereas it is single-line function.
+# Normal function is more readable whereas Lambda functionis short & quick.
+
 
 # Recursion:
 # A function calling itself is recursive function.
 # 2 important part:
-# 1. Base case (stopping condition)
+# 1. Base case (stopping condition) - always define a base case to avoid infinite recursion.
 # Recursive call
 
 # ex:
