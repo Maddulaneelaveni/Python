@@ -198,3 +198,12 @@ print(result)  # output: 15
 # If no return is specified, the function returns None by default.
 
 
+def check(num):
+    if num > 0:
+        return "Positive"
+    else:
+        return "Negative"
+
+print(check(10))
+
+
