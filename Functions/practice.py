@@ -143,7 +143,7 @@ print("Outside function:", x)
 # output : Inside funtion:20
 # Outside function:50
 
-# write a funcrion that modifies a global variable
+# 18.write a funcrion that modifies a global variable
 count = 10   # Global variable
 def update():
     global count
@@ -153,5 +153,11 @@ print("Updated value:", count)
 # output: Updated value:15
 # global keyword allows modification and use global only when modifiaction is required.
 
+# 19.Nested Function Example (Enclosed scope)
+def outer():
+    msg="Hello from outer function"
+    def inner():
+        print(msg)
+    inner()
 
 
