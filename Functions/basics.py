@@ -197,7 +197,7 @@ result = add(10, 5)
 print(result)  # output: 15
 # If no return is specified, the function returns None by default.
 
-
+# Multiple return statements:
 def check(num):
     if num > 0:
         return "Positive"
@@ -205,5 +205,11 @@ def check(num):
         return "Negative"
 
 print(check(10))
+
+# Diffrence between print() and return:
+# print() displays output to the console but does not send any value back.
+# return sends a value back to the caller and can be used later in the code.
+# print uses for user display whereas return uses for program logic.
+
 
 
