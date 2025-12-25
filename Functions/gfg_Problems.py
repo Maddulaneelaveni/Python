@@ -41,3 +41,13 @@ x,y = swap_numbers(x,y)
 print("After swapping:")
 print("x=", x)
 print("y =", y)
+
+# Swap without using temporary variable
+def swap_numbers(a, b):
+    a, b = b, a
+    return a, b
+x = int(input("Enter the first number: "))
+y = int(input("Enter the second number: "))
+x , y=swap_numbers(x,y)
+print("x=", x)
+print("y=", y)
