@@ -15,4 +15,8 @@ def multiplication_table(num):
 num = int(input("Enter a number"))
 multiplication_table(num) # calling the function
 
-    
+# 3.Sum of Naturals
+def sum_of_naturals(n):
+    return n * (n+1) // 2
+n = int(input("Enter a natural number: "))
+print("Sum of natural numbers is:", sum_of_naturals(n))
