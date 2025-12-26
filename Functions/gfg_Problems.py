@@ -25,4 +25,19 @@ print("Sum of natural numbers is:", sum_of_naturals(n))
 def sum_of_naturals(n):
     return n * (n+1) * (2*n + 1) // 6
 n = int (input("Enter a natural number: "))
-print("Sum of sqaures of natural numbers is:", sum_of_sqaures(n))
+print("Sum of sqaures of natural numbers is:", sum_of_naturals(n))
+
+# 5. Swap Two Numbers
+# Swap using Temporary variable
+def swap_numbers(a, b):
+    temp = a
+    a = b
+    b = temp
+    return a, b
+x= int(input("Enter the first number: "))
+y = int(input("Enter second number: "))
+# calling the function
+x,y = swap_numbers(x,y)
+print("After swapping:")
+print("x=", x)
+print("y =", y)
