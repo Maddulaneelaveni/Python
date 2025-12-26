@@ -20,3 +20,9 @@ def sum_of_naturals(n):
     return n * (n+1) // 2
 n = int(input("Enter a natural number: "))
 print("Sum of natural numbers is:", sum_of_naturals(n))
+
+# 4.Sum of squares of naturals
+def sum_of_naturals(n):
+    return n * (n+1) * (2*n + 1) // 6
+n = int (input("Enter a natural number: "))
+print("Sum of sqaures of natural numbers is:", sum_of_sqaures(n))
