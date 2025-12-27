@@ -51,3 +51,5 @@ y = int(input("Enter the second number: "))
 x , y=swap_numbers(x,y)
 print("x=", x)
 print("y=", y)
+
+# 6.Closest number
