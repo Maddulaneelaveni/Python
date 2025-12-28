@@ -53,3 +53,11 @@ print("x=", x)
 print("y=", y)
 
 # 6.Closest number
+def closest_integer(num):
+    return round(num)  
+# Taking input from user
+num = float(input("Enter a number: "))
+# Calling the function
+result = closest_integer(num)
+print("Closest integer is:", result)
+
