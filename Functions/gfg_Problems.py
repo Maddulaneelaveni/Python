@@ -61,3 +61,12 @@ num = float(input("Enter a number: "))
 result = closest_integer(num)
 print("Closest integer is:", result)
 
+# 7. Dice problem
+# Dice Roll
+import random
+def roll_dice():
+    return random.randint(1, 6)
+# calling the funtion
+result=roll_dice()
+print("Dice rolled:", result)
+
