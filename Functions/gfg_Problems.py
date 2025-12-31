@@ -80,3 +80,12 @@ def even_or_odd_dice():
         print(roll, "is Odd")
 even_or_odd_dice()
 
+# 9.Nth term of AP
+def nth_term_ap(a, d, n):
+    return a + (n - 1) * d
+a = int(input("Enter first term: "))
+d = int(input("Enter common difference: "))
+n = int(input("Enter term number: "))
+print("Nth term of AP is:", nth_term_ap(a, d, n))
+
+
