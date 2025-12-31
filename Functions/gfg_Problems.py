@@ -70,3 +70,13 @@ def roll_dice():
 result=roll_dice()
 print("Dice rolled:", result)
 
+#8. Check if dice roll is EVEN or ODD
+import random
+def even_or_odd_dice():
+    roll = random.randint(1, 6)
+    if roll % 2 == 0:
+        print(roll, "is Even")
+    else:
+        print(roll, "is Odd")
+even_or_odd_dice()
+
