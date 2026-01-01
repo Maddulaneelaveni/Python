@@ -90,13 +90,7 @@ print("Nth term of AP is:", nth_term_ap(a, d, n))
 
 #                    (OR)
 
-def nth_term_ap(a, d, n):
-    return a+(n - 1)*d
-# Example
-a = 2 # first term
-d = 3   # common difference
-n = 5  # term number
-print("Nth term of AP is:", nth_term_ap(a, d, n))
+
 
 
 
