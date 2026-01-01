@@ -98,5 +98,17 @@ d = 3   # common difference
 n = 5  # term number
 print("Nth term of AP is:", nth_term_ap(a, d, n))
 
+# 9. check the type of traingle
+def is_valid_triangle(a, b, c):
+    return a + b + c == 180 and a > 0 and b > 0 and c > 0
+a = int(input("Enter angle 1: "))
+b = int(input("Enter angle 2: "))
+c = int(input("Enter angle 3: "))
+if is_valid_triangle(a, b, c):
+    print("Valid Triangle")
+else:
+    print("Not a Valid Triangle")
+
+
 
 
