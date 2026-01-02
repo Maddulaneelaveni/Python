@@ -119,7 +119,14 @@ def find_angle_c_and_check_validity(a, b):
         print("Not a Valid Triangle")
 a = int(input("Enter angle a: "))
 b = int(input("Enter angle b: "))
-find_angle_c_and_check_validity(a, b)   
+find_angle_c_and_check_validity(a, b) 
+
+# Logic and output are mixed together
+# Function cannot be reused or tested easily 
+# How it works :
+# Function calculates c
+# Function prints result itself
+# No value is returned
 
 #                    (OR)
 def find_angle_c_and_check_validity(a, b):
@@ -136,6 +143,16 @@ if is_valid:
     print("Valid Triangle")
 else:
     print("Not a Valid Triangle")
-    
+
+# This approach separates LOGIC (function) and OUTPUT (main code)
+# How it works :
+# Function calculates c
+# Function returns two values:
+# c (calculated angle)
+# True / False (validity)
+# Outside the function:
+# Values are stored in variables
+# Printing decision is made
+
 
 
