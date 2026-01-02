@@ -154,5 +154,18 @@ else:
 # Values are stored in variables
 # Printing decision is made
 
+# 11. Overlapping Rectangles
+def isOverlapping(rect1, rect2):
+    x1, y1, x2, y2 = rect1
+    x3, y3, x4, y4 = rect2
+# check non-overlapping conditions
+    if x2<=x3 or x4<=x1:  # one rectangle is to the left/right of other
+        return False
+    if y2<=y3 or y4<=y1:  # one rectangle is above/below other
+        return False
+    return True  # rectangles overlap
+
+    
+
 
 
