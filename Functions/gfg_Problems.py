@@ -121,5 +121,21 @@ a = int(input("Enter angle a: "))
 b = int(input("Enter angle b: "))
 find_angle_c_and_check_validity(a, b)   
 
+#                    (OR)
+def find_angle_c_and_check_validity(a, b):
+    c = 180 - (a + b)
+    if a > 0 and b > 0 and c > 0:
+        return c, True
+    else:
+        return c, False
+a = int(input("Enter angle a: "))
+b = int(input("Enter angle b: "))
+c, is_valid = find_angle_c_and_check_validity(a, b)
+if is_valid:
+    print("Angle c is:", c)
+    print("Valid Triangle")
+else:
+    print("Not a Valid Triangle")
+    
 
 
