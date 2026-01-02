@@ -109,6 +109,17 @@ if is_valid_triangle(a, b, c):
 else:
     print("Not a Valid Triangle")
 
+# 10.Find angle c of a triangle and check validity [a,b are given]
+def find_angle_c_and_check_validity(a, b):
+    c=180-(a+b)
+    if a>0 and b>0 and c>0:
+        print("Angle c is:", c)
+        print("Valid Triangle")
+    else:
+        print("Not a Valid Triangle")
+a = int(input("Enter angle a: "))
+b = int(input("Enter angle b: "))
+find_angle_c_and_check_validity(a, b)   
 
 
 
