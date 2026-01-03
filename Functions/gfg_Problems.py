@@ -219,6 +219,16 @@ else:
     print(num, "is not a power of two")
 
 # 17. GCD of two numbers
+def gcd(a, b):
+    while b: # loop until b becomes 0
+        a, b = b, a % b  # Euclidean algorithm: replace a with b and b with a mod b in simple terms, we keep replacing larger number with smaller number and smaller number with remainder until remainder becomes 0
+    return a  # when b becomes 0, a contains the GCD
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+print("GCD of", num1, "and", num2, "is", gcd(num1, num2))
+
+
+
 
 
 
