@@ -225,7 +225,7 @@ def gcd(a, b):
     return a  # when b becomes 0, a contains the GCD
 num1 = int(input("Enter first number: "))
 num2 = int(input("Enter second number: "))
-
+print("GCD of", num1, "and", num2, "is", gcd(num1, num2))
 
 
 
