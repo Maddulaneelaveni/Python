@@ -167,9 +167,19 @@ print("Sum of digits is:", sum_of_digits(num))
 
 # 12. Difference between two points
 import math
-def distance(p1, p2):
+def distance(p1, p2):   # USing tuples to represent points and math.dist() to calculate distance
     return math.dist(p1, p2)
 print(distance((1, 2), (4, 6)))  
+
+# 13. Reverse Digits of a number
+def reverse_digits(n): # n is the input number
+    rev = 0 # rev stores the reversed number and starts initially 0
+    while n > 0: # loop until n becomes 0, and when n becomes 0, all digits are reversed
+        digit = n % 10  # get the last digit of number n
+        rev = rev * 10 + digit # rev*10 shifts digits left (rev) and adds new digit at the end
+        n //= 10 # removes the last digit from n
+    return rev
+
 
 
 
