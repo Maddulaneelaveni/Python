@@ -223,6 +223,7 @@ def gcd(a, b):
     while b: # loop until b becomes 0
         a, b = b, a % b  # Euclidean algorithm: replace a with b and b with a mod b in simple terms, we keep replacing larger number with smaller number and smaller number with remainder until remainder becomes 0
     return a  # when b becomes 0, a contains the GCD
+num1 = int(input("Enter first number: "))
 
 
 
