@@ -188,6 +188,39 @@ def is_prime(n):
         if n % i == 0:
             return False
     return True
+num = int(input("Enter a number: "))
+if is_prime(num):
+    print(num, "is a prime number")
+else:
+    print(num, "is not a prime number")
+
+# 15. Factorial of a number
+def factorial(n):
+    if n == 0 or n == 1: # factorial of 0 and 1 is 1
+        return 1
+    result = 1
+    for i in range(2, n + 1): # loop from 2 to n
+        result *= i # multiply result by i because factorial is product of all numbers from 1 to n
+    return result # return the final result
+num = int(input("Enter a number: "))
+print("Factorial of", num, "is", factorial(num))
+
+# 16. Check if a number is power of two
+def is_power_of_two(n):
+    if n <= 0: # 0 and negative numbers cannot be powers of two
+        return False
+    while n % 2 == 0: # keep dividing n by 2 while it is even and gives remainder 0 and finally if n becomes 1, then it is power of two
+        n //= 2  # divide n by 2
+    return n == 1 # if n is reduced to 1, it is power of two
+num = int(input("Enter a number: "))
+if is_power_of_two(num):
+    print(num, "is a power of two")
+else:
+    print(num, "is not a power of two")
+
+# 17. GCD of two numbers
+
+
 
 
 
