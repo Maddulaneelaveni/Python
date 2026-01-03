@@ -165,6 +165,12 @@ def sum_of_digits(n):
 num = int(input("Enter a number: "))
 print("Sum of digits is:", sum_of_digits(num))
 
+# 12. Difference between two points
+import math
+def distance(p1, p2):
+    return math.dist(p1, p2)
+print(distance((1, 2), (4, 6)))  
+
 
 
 
