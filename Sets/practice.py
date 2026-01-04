@@ -121,4 +121,10 @@ duplicates = {n for n in nums if nums.count(n) > 1} #set comprehension
 
 print("Duplicates:", duplicates)
 
+# 13.Find Students Enrolled in All Courses
+course1 = {"Alice", "Bob", "Charlie"}
+course2 = {"Bob", "Charlie", "David"}
+course3 = {"Charlie", "Bob", "Eve"}
+all_students = set.intersection(course1, course2, course3)
+print("Students in all courses:", all_students)
 
