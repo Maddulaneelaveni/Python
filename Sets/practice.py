@@ -161,3 +161,5 @@ print("Employees in both departments:", common_employees)
 # 18.Find Products Available in One Store but Not in Another
 store_X = {"apple", "banana", "cherry"}
 store_Y = {"banana", "dragonfruit", "elderberry"}
+exclusive_products = store_X - store_Y
+print("Products only in Store X:", exclusive_products)
