@@ -140,4 +140,16 @@ member2 = {"reading", "traveling", "music"}
 member3 = {"music", "cooking", "reading"}
 common_interests = set.intersection(member1, member2, member3)
 print("Common interests:", common_interests)
+
 # 16.Find Unique Hashtags Used in Social Media Posts
+posts = [
+    "#fun #sun #beach",
+    "#travel #fun #adventure",
+    "#beach #relaxation #sun"
+]
+unique_hashtags = set()
+for post in posts:
+    hashtags = post.split()
+    unique_hashtags.update(hashtags)    
+print("Unique hashtags:", unique_hashtags)
+# 17.Find Employees Working in Both Departments
