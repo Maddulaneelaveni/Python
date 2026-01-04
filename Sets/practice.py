@@ -133,3 +133,11 @@ setA = {1, 2, 3, 4, 5}
 setB = {4, 5, 6, 7, 8}
 difference = setA - setB
 print("Elements in A not in B:", difference)
+
+# 15.Find Common Interests Among Group Members
+member1 = {"music", "sports", "reading"}
+member2 = {"reading", "traveling", "music"} 
+member3 = {"music", "cooking", "reading"}
+common_interests = set.intersection(member1, member2, member3)
+print("Common interests:", common_interests)
+# 16.Find Unique Hashtags Used in Social Media Posts
