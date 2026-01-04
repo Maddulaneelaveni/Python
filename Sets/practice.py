@@ -128,3 +128,8 @@ course3 = {"Charlie", "Bob", "Eve"}
 all_students = set.intersection(course1, course2, course3)
 print("Students in all courses:", all_students)
 
+# 14.Find Elements Present in One Set but Not in Another
+setA = {1, 2, 3, 4, 5}
+setB = {4, 5, 6, 7, 8}
+difference = setA - setB
+print("Elements in A not in B:", difference)
