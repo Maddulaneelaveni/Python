@@ -158,8 +158,22 @@ dept_A = {"E101", "E102", "E103"}
 dept_B = {"E102", "E104", "E105"}
 common_employees = dept_A & dept_B
 print("Employees in both departments:", common_employees)
+
 # 18.Find Products Available in One Store but Not in Another
 store_X = {"apple", "banana", "cherry"}
 store_Y = {"banana", "dragonfruit", "elderberry"}
 exclusive_products = store_X - store_Y
 print("Products only in Store X:", exclusive_products)
+
+# 19.Insert all elements of an array into a set and remove a given number if it exists, otherwise print “not found”.
+def setDisplay(arr, x):
+    s = set(arr)
+    if x in s:
+        s.remove(x)
+        print(f"erased {x}")
+    else:
+        print("not found")
+    return s
+
+
+
