@@ -152,4 +152,12 @@ for post in posts:
     hashtags = post.split()
     unique_hashtags.update(hashtags)    
 print("Unique hashtags:", unique_hashtags)
+
 # 17.Find Employees Working in Both Departments
+dept_A = {"E101", "E102", "E103"}
+dept_B = {"E102", "E104", "E105"}
+common_employees = dept_A & dept_B
+print("Employees in both departments:", common_employees)
+# 18.Find Products Available in One Store but Not in Another
+store_X = {"apple", "banana", "cherry"}
+store_Y = {"banana", "dragonfruit", "elderberry"}
