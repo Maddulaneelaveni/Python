@@ -41,4 +41,11 @@ zipped = tuple(zip(names, scores))
 print(zipped)
 # Output: (('Neelaveni', 85), ('Vinaya', 92), ('Mokshi', 78))
 
+# 6.Find Maximum and Minimum in Tuple
+t = (5, 3, 8, 1, 4)
+print("Max:", max(t))  # Max: 8
+print("Min:", min(t))  # Min: 1
+
+# 7.Convert List of Tuples to Dictionary
+
 
