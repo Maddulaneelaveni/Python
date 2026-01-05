@@ -47,5 +47,9 @@ print("Max:", max(t))  # Max: 8
 print("Min:", min(t))  # Min: 1
 
 # 7.Convert List of Tuples to Dictionary
+tuple_list = [("Neelaveni", 85), ("Vinaya", 92), ("Mokshi", 78)]
+result_dict = dict(tuple_list)
+print(result_dict)
+
 
 
