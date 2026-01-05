@@ -20,8 +20,6 @@ print(name) # Neelaveni
 print(age)# 21
 print(role)  # Data Analyst
 
-
-
 # 4.Tuple Membership and Conditional
 t = (10, 20, 30, 40)
 # Check if 25 exists
@@ -30,8 +28,6 @@ if 25 in t:
 else:
     print("Does not exist")  
 # Output: Does not exist
-
-
 
 # 5.Zip Two Lists into a Tuple
 names = ["Neelaveni", "Vinaya", "Mokshi"]
@@ -50,6 +46,14 @@ print("Min:", min(t))  # Min: 1
 tuple_list = [("Neelaveni", 85), ("Vinaya", 92), ("Mokshi", 78)]
 result_dict = dict(tuple_list)
 print(result_dict)
+
+# 8.Reverse a Tuple
+t = (1, 2, 3, 4, 5)
+reversed_t = t[::-1]
+print(reversed_t)  # Output: (5, 4, 3, 2, 1)
+
+
+
 
 
 
