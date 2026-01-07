@@ -27,3 +27,21 @@ for ch in s:
         count += 1
 print("Number of vowels:", count)
 # Output: 3
+
+# INTERMEDIATE LEVEL
+
+# 4. Find the first non-repeating character in a string
+s = "swiss"
+char_count = {}
+for ch in s:
+    if ch in char_count:
+        char_count[ch] += 1
+    else:
+        char_count[ch] = 1
+first_non_repeating = None
+for ch in s:
+    if char_count[ch] == 1:
+        first_non_repeating = ch
+        break   
+print("First non-repeating character:", first_non_repeating)
+# Output: "w"
