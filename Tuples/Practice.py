@@ -14,7 +14,7 @@ print(nested[2][1])
 
 
 # 3.Tuple unpacking
-person = ("Neelaveniata Analyst")
+person = ("Neelaveni Analyst")
 name, age, role = person # Unpack tuple into variables
 print(name) # Neelaveni
 print(age)# 21
@@ -51,6 +51,44 @@ print(result_dict)
 t = (1, 2, 3, 4, 5)
 reversed_t = t[::-1]
 print(reversed_t)  # Output: (5, 4, 3, 2, 1)
+
+# 9.Merge Two Tuples
+t1 = (1, 2, 3)
+t2 = (4, 5, 6)
+merged = t1 + t2
+print(merged)  # Output: (1, 2, 3, 4, 5, 6)
+
+# 10.Find Index of an Element
+t = (10, 20, 30, 40, 50)
+index_30 = t.index(30) # .index(value) returns the index of the
+print(index_30)  # Output: 2
+
+# 11.Slice a Tuple
+t = (0, 1, 2, 3, 4, 5, 6, 7, 8, 9)
+sliced = t[2:7:2] # From index 2 to 6, step 2
+print(sliced)  # Output: (2, 4, 6)
+
+# 12.Convert Tuple to List and Back
+t = (1, 2, 3, 4, 5)
+lst = list(t)  # Convert to list
+lst.append(6)  # Modify list
+t_modified = tuple(lst)  # Convert back to tuple
+print(t_modified)  # Output: (1, 2, 3, 4, 5, 6)
+
+# 13.Repeat Elements in a Tuple
+t = (1, 2, 3)
+repeated = t * 3
+print(repeated)  # Output: (1, 2, 3, 1, 2, 3, 1, 2, 3)
+
+# 14.Tuple with Single Element
+single_element_tuple = (42,)  # Note the comma
+print(single_element_tuple)  # Output: (42,)
+print(type(single_element_tuple))  # Output: <class 'tuple'>
+
+# 15.Nested Tuple Unpacking
+nested_tuple = (1, (2, 3), 4)
+a, (b, c), d = nested_tuple # Unpack nested tuple
+print(a)  # Output: 1   
 
 
 
