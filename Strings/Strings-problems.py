@@ -18,3 +18,12 @@ for i in range(len(s) // 2):
 print("Is palindrome:", is_palindrome)
 # Output: True
 
+# 3. Count vowels in a string
+s = "hello world"
+vowels = "aeiouAEIOU"
+count = 0
+for ch in s:
+    if ch in vowels:
+        count += 1
+print("Number of vowels:", count)
+# Output: 3
