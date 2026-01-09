@@ -58,4 +58,8 @@ else:
 # 6. Remove duplicates from a string
 s = "banana"
 result = ""
-
+for ch in s:
+    if ch not in result:
+        result += ch
+print("String after removing duplicates:", result)
+# Output: "ban"
