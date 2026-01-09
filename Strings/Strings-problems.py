@@ -54,3 +54,8 @@ if sorted(s1) == sorted(s2):
 else:
     print("Anagrams: False")
 # Output: True
+
+# 6. Remove duplicates from a string
+s = "banana"
+result = ""
+
