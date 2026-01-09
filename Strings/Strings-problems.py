@@ -70,4 +70,9 @@ s = "abcabcbb"
 start = 0
 max_length = 0
 used_char = {}
-
+for i, ch in enumerate(s):
+    if ch in used_char and start <= used_char[ch]:
+        start = used_char[ch] + 1
+    else:
+        max_length = max(max_length, i - start + 1)
+    used_char[ch] = i
