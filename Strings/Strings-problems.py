@@ -45,3 +45,12 @@ for ch in s:
         break   
 print("First non-repeating character:", first_non_repeating)
 # Output: "w"
+
+# 5. Check if two strings are anagrams
+s1 = "listen"
+s2 = "silent"
+if sorted(s1) == sorted(s2):
+    print("Anagrams: True")
+else:
+    print("Anagrams: False")
+# Output: True
