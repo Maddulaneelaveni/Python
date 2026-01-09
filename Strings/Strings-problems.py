@@ -63,3 +63,11 @@ for ch in s:
         result += ch
 print("String after removing duplicates:", result)
 # Output: "ban"
+
+# ADVANCED LEVEL
+# 7. Find the longest substring without repeating characters
+s = "abcabcbb"
+start = 0
+max_length = 0
+used_char = {}
+
