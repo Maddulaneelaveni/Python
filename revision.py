@@ -96,3 +96,7 @@ else:
 # Write a function to check whether a student passed or failed an exam.
 # Assume the pass marks to be 50
 # Return passed if the student scored more than 50. otherwise return failed.
+
+def is_pass_or_fail(marks):
+    return marks>50
+# Test the function
