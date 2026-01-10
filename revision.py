@@ -91,4 +91,8 @@ if can_enter_club(age):
     print("Allowed to enter the club")
 else:
     print("Not allowed to enter the club")
-    
+
+# Is pass or fail
+# Write a function to check whether a student passed or failed an exam.
+# Assume the pass marks to be 50
+# Return passed if the student scored more than 50. otherwise return failed.
