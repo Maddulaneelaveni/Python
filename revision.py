@@ -100,3 +100,8 @@ else:
 def is_pass_or_fail(marks):
     return marks>50
 # Test the function
+marks=int(input("Enter your marks:"))
+if is_pass_or_fail(marks):
+    print("Passed")
+else:
+    print("Failed")
