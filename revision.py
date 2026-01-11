@@ -111,3 +111,9 @@ else:
 # Instructions: Define a function that takes a string as input
 # Inside the function, use the replace() method to replace all occurrences of ":)" with "😊"
 # Return the modified string
+def replace_smiley_faces(s):
+    return s.replace(":)","😊")
+# Test the function
+input_string=input("Enter a string with smiley faces:")
+output_string=replace_smiley_faces(input_string)    
+print("Modified string:",output_string)
