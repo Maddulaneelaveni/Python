@@ -117,3 +117,6 @@ def replace_smiley_faces(s):
 input_string=input("Enter a string with smiley faces:")
 output_string=replace_smiley_faces(input_string)    
 print("Modified string:",output_string)
+
+# 4. Convert to Titlecase. Write a function to convert a given string to title case.
+# In the title case, each word starts with a capital letter and all remaining words are small letters.
