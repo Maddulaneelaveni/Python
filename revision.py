@@ -92,7 +92,7 @@ if can_enter_club(age):
 else:
     print("Not allowed to enter the club")
 
-# Is pass or fail
+# 2.Is pass or fail
 # Write a function to check whether a student passed or failed an exam.
 # Assume the pass marks to be 50
 # Return passed if the student scored more than 50. otherwise return failed.
@@ -105,3 +105,9 @@ if is_pass_or_fail(marks):
     print("Passed")
 else:
     print("Failed")
+
+# 3.Smiley Faces
+# Write a function to replace all occurrences of ":)" with "😊" in a given string with a smiley face emoji.
+# Instructions: Define a function that takes a string as input
+# Inside the function, use the replace() method to replace all occurrences of ":)" with "😊"
+# Return the modified string
