@@ -106,6 +106,17 @@ if is_pass_or_fail(marks):
 else:
     print("Failed")
 
+# 3.Smiley Faces
+# Write a function to replace all occurrences of ":)" with "😊" in a given string with a smiley face emoji.
+# Instructions: Define a function that takes a string as input
+# Inside the function, use the replace() method to replace all occurrences of ":)" with "😊"
+# Return the modified string
+def replace_smiley_faces(s):
+    return s.replace(":)","😊")
+# Test the function
+input_string=input("Enter a string with smiley faces:")
+output_string=replace_smiley_faces(input_string)    
+print("Modified string:",output_string)
 
 # 4. Convert to Titlecase. Write a function to convert a given string to title case.
 # In the title case, each word starts with a capital letter and all remaining words are small letters.
