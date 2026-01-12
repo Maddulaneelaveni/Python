@@ -118,12 +118,4 @@ input_string=input("Enter a string with smiley faces:")
 output_string=replace_smiley_faces(input_string)    
 print("Modified string:",output_string)
 
-# 4. Convert to Titlecase. Write a function to convert a given string to title case.
-# In the title case, each word starts with a capital letter and all remaining words are small letters.
-def convert_to_title_case(s):
-    return s.title()
-# Test the function
-input_string=input("Enter a string:")
-output_string=convert_to_title_case(input_string)   
-print("Title case string:",output_string)
 
