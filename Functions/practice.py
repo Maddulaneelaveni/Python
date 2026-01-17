@@ -153,6 +153,11 @@ print("Updated value:", count)
 # output: Updated value:15
 # global keyword allows modification and use global only when modifiaction is required.
 
-
+# 19.Nested Function Example (Enclosed scope)
+def outer():
+    msg="Hello from outer function"
+    def inner():
+        print(msg)
+    inner()
 
 
