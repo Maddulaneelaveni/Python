@@ -133,15 +133,7 @@ def is_armstrong(num):
     sum_of_powers = sum(int(digit) ** num_digits for digit in num_str)
     return sum_of_powers == num
 
-# 17. Program showing Local & Global variable difference
-x = 50   # Global variable
-def show():
-    x = 20   # Local variable
-    print("Inside function:", x)
-show()
-print("Outside function:", x)
-# output : Inside funtion:20
-# Outside function:50
+
 
 # 18.write a funcrion that modifies a global variable
 count = 10   # Global variable
