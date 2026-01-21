@@ -11,4 +11,14 @@
 # The function calls itself with a smaller input
 
 
+#1. Print numbers from 1 to N
+def print_1_to_n(n):
+    if n == 0:
+        return
+    print_1_to_n(n - 1)
+    print(n)
+print_1_to_n(5)
+
+
+
 
