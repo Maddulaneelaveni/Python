@@ -109,6 +109,13 @@ def is_palindrome(s):
 print(is_palindrome("racecar"))  # Output: True
 print(is_palindrome("hello"))    # Output: False
 
+# 8. Power of a number
+def power(base, exp):
+    if exp == 0:
+        return 1
+    return base * power(base, exp - 1)
+print(power(2, 3))  # Output: 8
+
 
 
 
