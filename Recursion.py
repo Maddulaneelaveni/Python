@@ -99,6 +99,8 @@ def reverse_string(s):
     return s[-1] + reverse_string(s[:-1])
 print(reverse_string("hello"))  # Output: "olleh"
 
+# 7. Check if a string is a palindrome
+
 
 
 
