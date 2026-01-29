@@ -92,5 +92,13 @@ def sum_n(n):
     return n + sum_n(n-1)
 print(sum_n(5))  # Output: 15
 
+# 6. Reverse a string
+def reverse_string(s):
+    if len(s) == 0:
+        return s
+    return s[-1] + reverse_string(s[:-1])
+print(reverse_string("hello"))  # Output: "olleh"
+
+
 
 
