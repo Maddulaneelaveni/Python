@@ -9,6 +9,7 @@
 
 # Recursive Case:
 # The function calls itself with a smaller input
+# Missing base case = infinite recursion
 
 
 #1. Print numbers from 1 to N
