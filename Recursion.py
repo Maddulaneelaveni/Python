@@ -39,6 +39,14 @@
 # 2.It is pushed onto the stack
 # 3.When the function finishes, its frame is popped from the stack
 
+# What is a Stack Frame?
+# Each stack frame contains:
+# Function name
+# Parameters
+# Local variables
+# Return address (where to go back after function ends)
+# In recursion, many stack frames of the same function are created.
+
 
 #1. Print numbers from 1 to N
 def print_1_to_n(n):
