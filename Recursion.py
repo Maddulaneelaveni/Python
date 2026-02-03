@@ -3,6 +3,13 @@
 # In simple words:
 #  A function solving a problem by breaking it into smaller versions of the same problem.
 
+# Interview answer on Recursion:
+# In recursion, each function call is stored in the call stack as a separate stack frame.
+# The stack follows LIFO order.
+# Recursive calls keep pushing frames until the base case is reached.
+# Then values return in reverse order, popping stack frames one by one.
+# If the base case is missing, the stack keeps growing and causes a stack overflow error.
+
 # Two Important Parts of Recursion
 # Base Case:
 # Stops the recursion (prevents infinite calls)
