@@ -28,6 +28,8 @@
 # Infinite calls → stack keeps growing
 # Memory fills → Stack Overflow Error
 
+# Stack Overflow Error: A stack overflow occurs when the call stack exceeds its maximum memory limit due to too many function calls.
+
 
 #1. Print numbers from 1 to N
 def print_1_to_n(n):
