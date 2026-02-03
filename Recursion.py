@@ -30,6 +30,15 @@
 
 # Stack Overflow Error: A stack overflow occurs when the call stack exceeds its maximum memory limit due to too many function calls.
 
+# What is a Call Stack?
+# The call stack is a memory structure that stores information about active function calls in a program.
+# It follows LIFO (Last In, First Out) order.
+
+# Every time a function is called:
+# 1.A stack frame is created
+# 2.It is pushed onto the stack
+# 3.When the function finishes, its frame is popped from the stack
+
 
 #1. Print numbers from 1 to N
 def print_1_to_n(n):
