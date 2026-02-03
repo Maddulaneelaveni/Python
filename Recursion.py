@@ -21,6 +21,16 @@
 
 # 4.Non-Tail Recursion: Code exists after recursive call
 
+# Why Base Case Is CRITICAL?
+
+# Base case stops recursion
+
+Without it → infinite calls
+
+Infinite calls → stack keeps growing
+
+Memory fills → 💥 Stack Overflow Error
+
 
 #1. Print numbers from 1 to N
 def print_1_to_n(n):
