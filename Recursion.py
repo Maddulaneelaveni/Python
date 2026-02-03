@@ -69,8 +69,15 @@ def print_n_to_1(n):
         return
     print(n)
     print_n_to_1(n - 1)
-
 print_n_to_1(5)
+
+# 3. Factorial of a number
+def factorial(n):
+    if n == 0:
+        return 1
+    return n * factorial(n-1)
+print(factorial(5))
+
 
 
 
