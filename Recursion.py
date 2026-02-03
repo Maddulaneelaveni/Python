@@ -11,6 +11,16 @@
 # The function calls itself with a smaller input
 # Missing base case = infinite recursion
 
+# Types of Recursion:
+
+# 1.Direct Recursion :Function calls itself directly
+
+# 2.Indirect Recursion: Function A → Function B → Function A
+
+# 3.Tail Recursion: Recursive call is the last statement
+
+# 4.Non-Tail Recursion: Code exists after recursive call
+
 
 #1. Print numbers from 1 to N
 def print_1_to_n(n):
