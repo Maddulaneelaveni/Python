@@ -24,12 +24,9 @@
 # Why Base Case Is CRITICAL?
 
 # Base case stops recursion
-
-Without it → infinite calls
-
-Infinite calls → stack keeps growing
-
-Memory fills → 💥 Stack Overflow Error
+# Without it → infinite calls
+# Infinite calls → stack keeps growing
+# Memory fills → Stack Overflow Error
 
 
 #1. Print numbers from 1 to N
