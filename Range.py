@@ -4,3 +4,11 @@
 # Important: range() does not create a list.
 # It returns a range object (lazy evaluation → memory efficient).
 
+# Syntax of range():
+# range(start, stop, step)
+# start: Starting number (inclusive, default is 0)
+# stop: Stopping number (exclusive)
+# step: Difference between each number (default is 1)
+
+
+
