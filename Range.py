@@ -10,5 +10,9 @@
 # stop: Stopping number (exclusive)
 # step: Difference between each number (default is 1)
 
+# Examples of range():
+for i in range(1, 10, 2):
+    print(i)
+# output:
 
 
