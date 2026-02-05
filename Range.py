@@ -17,5 +17,8 @@ for i in range(1, 10, 2):
 # 1 3 5 7 9
 
 # Why range() is Memory Efficient?
+# Does not store all numbers
+# Generates numbers on demand
+# Ideal for large loops
 
 
