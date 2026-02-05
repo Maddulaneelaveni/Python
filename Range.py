@@ -16,5 +16,6 @@ for i in range(1, 10, 2):
 # output:
 # 1 3 5 7 9
 
+# Why range() is Memory Efficient?
 
 
