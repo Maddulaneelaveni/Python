@@ -22,3 +22,7 @@ for i in range(1, 10, 2):
 # Ideal for large loops
 
 
+# 1. Sum of numbers from 1 to N
+
+
+
