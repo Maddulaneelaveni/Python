@@ -18,8 +18,4 @@ print(x(5))  # Output: 15
 y = lambda a, b: a * b
 print(y(5, 3))  # Output: 15
 
-# Why use lambda functions?
-# Concise syntax for simple functions
-# Useful for short-term use (e.g., in map(), filter(), sorted())
-# Can be defined inline without needing a formal function definition
 
