@@ -1,6 +1,11 @@
 # Lamda Funstions :
 # A lambda function is a small anonymous function that can take any number of arguments, but can only have one expression.
 
+# Why use lambda functions?
+# Concise syntax for simple functions
+# Useful for short-term use (e.g., in map(), filter(), sorted())
+# Can be defined inline without needing a formal function definition
+
 # Syntax of lambda function:
 # lambda arguments: expression
 
@@ -12,3 +17,9 @@ print(x(5))  # Output: 15
 # Multiply argument a with argument b and return the result:
 y = lambda a, b: a * b
 print(y(5, 3))  # Output: 15
+
+# Why use lambda functions?
+# Concise syntax for simple functions
+# Useful for short-term use (e.g., in map(), filter(), sorted())
+# Can be defined inline without needing a formal function definition
+
