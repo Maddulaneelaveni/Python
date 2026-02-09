@@ -19,10 +19,9 @@ print(x(5))  # Output: 15
 y = lambda a, b: a * b
 print(y(5, 3))  # Output: 15
 
-# Use lambda function with map() to square each number in a list:
-numbers = [1, 2, 3, 4, 5]
-squared = list(map(lambda x: x**2, numbers))
-print(squared)  # Output: [1, 4, 9, 16, 25]
+# Square of a Number
+square = lambda x: x ** 2
+print(square(4))  # Output: 16
 
 
 
