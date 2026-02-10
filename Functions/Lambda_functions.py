@@ -23,6 +23,11 @@ print(y(5, 3))  # Output: 15
 square = lambda x: x ** 2
 print(square(4))  # Output: 16
 
+# Check Even or Odd
+is_even = lambda x: "Even" if x % 2 == 0 else "Odd"
+print(is_even(5))  # Output: Odd
+print(is_even(6))  # Output: Even
+
 
 
 
