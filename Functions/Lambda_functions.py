@@ -28,6 +28,10 @@ is_even = lambda x: "Even" if x % 2 == 0 else "Odd"
 print(is_even(5))  # Output: Odd
 print(is_even(6))  # Output: Even
 
+# Find Maximum of Two Numbers
+max_num = lambda a, b: a if a > b else b
+print(max_num(10, 20))  # Output: 20
+
 
 
 
