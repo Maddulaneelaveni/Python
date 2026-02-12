@@ -32,6 +32,11 @@ print(is_even(6))  # Output: Even
 max_num = lambda a, b: a if a > b else b
 print(max_num(10, 20))  # Output: 20
 
+# Sort List of Tuples
+points = [(1, 2), (3, 1), (5, 4)]
+points.sort(key=lambda point: point[1])
+print(points)  # Output: [(3, 1), (1, 2), (5, 4)]
+
 
 
 
