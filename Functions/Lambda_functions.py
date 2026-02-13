@@ -37,6 +37,11 @@ points = [(1, 2), (3, 1), (5, 4)]
 points.sort(key=lambda point: point[1])
 print(points)  # Output: [(3, 1), (1, 2), (5, 4)]
 
+# Use with map() to square a list of numbers
+numbers = [1, 2, 3, 4, 5]
+squared = list(map(lambda x: x ** 2, numbers))
+print(squared)  # Output: [1, 4, 9, 16, 25]
+
 
 
 
