@@ -65,6 +65,11 @@ my_dict = {'apple': 3, 'banana': 1, 'cherry': 2}
 sorted_dict = dict(sorted(my_dict.items(), key=lambda item: item[1]))
 print(sorted_dict)  # Output: {'banana': 1, 'cherry': 2, 'apple': 3}
 
+# Find Longest Word in List
+words = ["apple", "banana", "kiwi", "grapefruit"]
+longest_word = max(words, key=lambda w: len(w))
+print(longest_word)  # Output: 'grapefruit'
+
 
 
 
