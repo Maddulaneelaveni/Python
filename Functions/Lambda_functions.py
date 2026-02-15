@@ -46,6 +46,11 @@ print(squared)  # Output: [1, 4, 9, 16, 25]
 even_numbers = list(filter(lambda x: x % 2 == 0, numbers))
 print(even_numbers)  # Output: [2, 4]
 
+# Use with sorted() to sort a list of strings by their length
+strings = ["apple", "banana", "kiwi", "grapefruit"]
+sorted_strings = sorted(strings, key=lambda s: len(s))
+print(sorted_strings)  # Output: ['kiwi', 'apple', 'banana', 'grapefruit']
+
 
 
 
