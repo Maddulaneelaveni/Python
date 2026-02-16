@@ -60,6 +60,11 @@ numbers = [1, 2, 3, 4, 5]
 product = reduce(lambda x, y: x * y, numbers)
 print(product)  # Output: 120
 
+# Sort Dictionary by Values
+my_dict = {'apple': 3, 'banana': 1, 'cherry': 2}
+sorted_dict = dict(sorted(my_dict.items(), key=lambda item: item[1]))
+print(sorted_dict)  # Output: {'banana': 1, 'cherry': 2, 'apple': 3}
+
 
 
 
