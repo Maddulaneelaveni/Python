@@ -54,6 +54,12 @@ print(sorted_strings)  # Output: ['kiwi', 'apple', 'banana', 'grapefruit']
 #  Lambda functions are a powerful tool for creating small, one-off functions without the need for a formal function definition. 
 # They are especially useful in situations where you need to pass a simple function as an argument to higher-order functions like map(), filter(), and sorted().
 
+# Use reduce() with Lambda . Find the product of all numbers in a list.
+from functools import reduce
+numbers = [1, 2, 3, 4, 5]
+product = reduce(lambda x, y: x * y, numbers)
+print(product)  # Output: 120
+
 
 
 
