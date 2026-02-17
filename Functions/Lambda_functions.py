@@ -75,11 +75,7 @@ numbers = [1, 5, 3, 9, 2]
 max_number = reduce(lambda x, y: x if x > y else y, numbers)
 print(max_number)  # Output: 9
 
-# Use with filter() to get words that start with 'a' from a list
-words = ["apple", "banana", "avocado", "grapefruit"]    
-a_words = list(filter(lambda w: w.startswith('a'), words))
-print(a_words)  # Output: ['apple', 'avocado']
-
+#
 
 
 
