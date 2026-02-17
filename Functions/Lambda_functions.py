@@ -80,6 +80,11 @@ words = ["apple", "banana", "avocado", "grapefruit"]
 a_words = list(filter(lambda w: w.startswith('a'), words))
 print(a_words)  # Output: ['apple', 'avocado']
 
+# Use with map() to convert a list of temperatures from Celsius to Fahrenheit
+celsius = [0, 20, 37, 100]  
+fahrenheit = list(map(lambda c: (c * 9/5) + 32, celsius))
+print(fahrenheit)  # Output: [32.0, 68.0,
+
 
 
 
