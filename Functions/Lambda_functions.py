@@ -70,6 +70,10 @@ words = ["apple", "banana", "kiwi", "grapefruit"]
 longest_word = max(words, key=lambda w: len(w))
 print(longest_word)  # Output: 'grapefruit'
 
+# use with reduce() to find the maximum number in a list
+numbers = [1, 5, 3, 9, 2]   
+max_number = reduce(lambda x, y: x if x > y else y, numbers)
+print(max_number)  # Output: 9
 
 
 
