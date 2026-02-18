@@ -11,4 +11,10 @@ my_function()  # Output: 10
 
 # Global Scope
 # A variable created in the main body of the code is a global variable and belongs to the global scope. Global variables can be used by everyone, both inside and outside of functions.
+# Example of global scope:
+x = 10  # x is a global variable
+def my_function():
+    print(x)  # x can be accessed inside the function
+my_function()  # Output: 10
+print(x)  # Output: 10
 
