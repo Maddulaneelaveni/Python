@@ -20,4 +20,10 @@ print(x)  # Output: 10
 
 # Enclosing Scope
 # A variable created inside a function is in the local scope of that function, but if there is a nested function, the inner function can access the variables of the outer function. This is called enclosing scope.
-
+# Example of enclosing scope:
+def outer_function():
+    x = 10  # x is in the local scope of outer_function
+    def inner_function():
+        print(x)  # x can be accessed in inner_function because of enclosing scope
+    inner_function()  # Output: 10
+outer_function() # Output: 10
