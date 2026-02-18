@@ -18,3 +18,6 @@ def my_function():
 my_function()  # Output: 10
 print(x)  # Output: 10
 
+# Enclosing Scope
+# A variable created inside a function is in the local scope of that function, but if there is a nested function, the inner function can access the variables of the outer function. This is called enclosing scope.
+
