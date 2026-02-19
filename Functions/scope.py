@@ -40,3 +40,22 @@ print(len("Hello"))  # len is a built-in function, so it can be used anywhere in
 # E - Enclosing - Inside outer function
 # G - Global - At the top-level of the module (module-level)
 # B - Built-in - Python's built-in names (len, sum, print, etc.)
+# Local → Enclosing → Global → Built-in -> This is the order in which Python looks for a variable when it is referenced. It first looks in the local scope, then in the enclosing scope, then in the global scope, and finally in the built-in scope.
+
+# (Must Remember)
+
+# LEGB rule
+
+# UnboundLocalError reason
+
+# nonlocal vs global
+
+# Late binding problem
+
+# Closure concept
+
+# Mutable default argument trap
+
+# Class scope ≠ enclosing scope
+
+# List comprehension scope (Python 3)
