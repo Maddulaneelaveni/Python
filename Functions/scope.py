@@ -38,3 +38,5 @@ print(len("Hello"))  # len is a built-in function, so it can be used anywhere in
 # Python follows the LEGB Rule:
 # L - Local - Inside current function
 # E - Enclosing - Inside outer function
+# G - Global - At the top-level of the module (module-level)
+# B - Built-in - Python's built-in names (len, sum, print, etc.)
