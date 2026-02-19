@@ -33,4 +33,5 @@ outer_function() # Output: 10
 # Built-in Scope
 # A variable created in the built-in scope is a built-in variable and belongs to the built-in scope. Built-in variables are available in any part of the code.
 # Example of built-in scope:
+print(len("Hello"))  # len is a built-in function, so it can be used anywhere in the code
 
