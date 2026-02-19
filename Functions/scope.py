@@ -35,3 +35,6 @@ outer_function() # Output: 10
 # Example of built-in scope:
 print(len("Hello"))  # len is a built-in function, so it can be used anywhere in the code
 
+# Python follows the LEGB Rule:
+# L - Local - Inside current function
+# E - Enclosing - Inside outer function
