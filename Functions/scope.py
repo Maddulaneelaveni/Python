@@ -1,4 +1,6 @@
 # SCOPE : A variable is only available from inside the region it is created. This is called scope.
+#   OR
+# Scope = The region where a variable is accessible.
 
 # Local Scope
 # A variable created inside a function belongs to the local scope of that function, and can only be used inside that function.
@@ -27,3 +29,4 @@ def outer_function():
         print(x)  # x can be accessed in inner_function because of enclosing scope
     inner_function()  # Output: 10
 outer_function() # Output: 10
+
