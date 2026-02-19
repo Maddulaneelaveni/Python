@@ -57,10 +57,14 @@ print(len("Hello"))  # len is a built-in function, so it can be used anywhere in
 # Late binding problem - Python looks up variable values when the function is called, not when it is created.
 # So loop variables in closures all refer to the final value unless fixed.
 
-# Closure concept
+# Closure concept - A closure is a function that remembers variables from its outer function even after the outer function has finished executing.
+# It keeps those variables alive in memory.
 
-# Mutable default argument trap
+# Mutable default argument trap -Default arguments are evaluated only once at function definition time, not each call.
+# So mutable objects (like lists) get reused across calls. This can lead to unexpected behavior if modified.
 
-# Class scope ≠ enclosing scope
+# Class scope ≠ enclosing scope - Python does not treat class scope as an enclosing scope for methods.
+# So methods cannot directly access class variables without using self or class name.
 
-# List comprehension scope (Python 3)
+# List comprehension scope (Python 3) - In Python 3, list comprehensions have their own separate scope, so loop variables do not leak outside.
+# This prevents accidental overwriting of outer variables.
