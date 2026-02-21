@@ -8,3 +8,4 @@
 # They can be used for logging, access control, memoization, and more.
 
 # Why use decorators?
+# Code Reusability: Decorators allow you to reuse code across multiple functions without modifying their code.
