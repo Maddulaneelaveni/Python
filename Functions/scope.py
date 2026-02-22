@@ -42,13 +42,6 @@ print(len("Hello"))  # len is a built-in function, so it can be used anywhere in
 # B - Built-in - Python's built-in names (len, sum, print, etc.)
 # Local → Enclosing → Global → Built-in -> This is the order in which Python looks for a variable when it is referenced. It first looks in the local scope, then in the enclosing scope, then in the global scope, and finally in the built-in scope.
 
-# 👍 Must Remember :
-
-# LEGB rule - Python searches for variables in this order: Local → Enclosing → Global → Built-in, and stops when it finds the first match.
-# This ensures predictable and structured variable resolution.
-
-# UnboundLocalError reason - If you assign a variable inside a function, Python treats it as local, even if a global variable exists.
-#So trying to use it before assignment causes UnboundLocalError.
 
 # nonlocal vs global  : 
 # global: Used to modify a variable defined at the module (global) level.
