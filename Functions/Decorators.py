@@ -6,3 +6,5 @@
 
 # In Python, decorators are often used to add functionality to functions or methods in a clean and reusable way. 
 # They can be used for logging, access control, memoization, and more.
+
+# Why use decorators?
