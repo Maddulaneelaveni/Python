@@ -3,3 +3,6 @@
 # Real-life analogy:
 # Think of a function as a gift .
 # A decorator is the gift wrapper — it adds something extra without touching what’s inside.
+
+# In Python, decorators are often used to add functionality to functions or methods in a clean and reusable way. 
+# They can be used for logging, access control, memoization, and more.
