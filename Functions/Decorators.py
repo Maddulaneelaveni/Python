@@ -16,3 +16,21 @@
 # @decorator_function
 # def some_function():
 #     # function body
+
+# Example of a simple decorator that logs the execution time of a function:
+import time
+def timer(func):
+    def wrapper(*args, **kwargs):
+        start_time = time.time()  # Record the start time
+        result = func(*args, **kwargs)  # Call the original function
+        end_time = time.time()  # Record the end time
+        print(f"{func.__name__} executed in {end_time - start_time:.4f} seconds")  # Print execution time
+        return result  # Return the result of the original function
+    return wrapper
+@timer
+def example_function():
+    time.sleep(2)  # Simulate a time-consuming task
+example_function()  # Output: example_function executed in 2.0000 seconds
+
+
+
