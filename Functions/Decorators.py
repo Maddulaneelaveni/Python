@@ -10,3 +10,4 @@
 # Why use decorators?
 # Code Reusability: Decorators allow you to reuse code across multiple functions without modifying their code.
 # Separation of Concerns: They help separate the core logic of a function from additional features like logging or timing.
+# Clean Syntax: Using the @decorator syntax makes it clear that a function is being decorated, improving readability.
