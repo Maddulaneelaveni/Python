@@ -5,3 +5,6 @@
 # Remembers its state between calls
 # Is memory efficient
 # 👉 Instead of returning all values at once, it generates values lazily (on demand).
+
+# Normal Function vs Generator :
+# Normal Function:
