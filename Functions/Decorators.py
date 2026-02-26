@@ -33,5 +33,9 @@ def example_function():
 example_function()  # Output: example_function executed in 2.0000 seconds
 # In this example, the timer decorator wraps the example_function, measuring and printing how long it takes to execute.
 
+# Decorators can also be used to add functionality to functions without modifying their code. 
+# For example, you can create a decorator that adds logging to a function:
+
+
 
 
