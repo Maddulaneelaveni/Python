@@ -31,6 +31,7 @@ def timer(func):
 def example_function():
     time.sleep(2)  # Simulate a time-consuming task
 example_function()  # Output: example_function executed in 2.0000 seconds
+# In this example, the timer decorator wraps the example_function, measuring and printing how long it takes to execute.
 
 
 
