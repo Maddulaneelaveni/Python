@@ -35,6 +35,11 @@ example_function()  # Output: example_function executed in 2.0000 seconds
 
 # Decorators can also be used to add functionality to functions without modifying their code. 
 # For example, you can create a decorator that adds logging to a function:
+def logger(func):
+    def wrapper(*args, **kwargs):
+        print(f"Calling {func.__name__} with arguments {args} and keyword arguments {kwargs}")
+        return func(*args, **kwargs)
+    return wrapper
 
 
 
