@@ -40,6 +40,12 @@ def logger(func):
         print(f"Calling {func.__name__} with arguments {args} and keyword arguments {kwargs}")
         return func(*args, **kwargs)
     return wrapper
+@logger
+def add(a, b):
+    return a + b
+result = add(5, 3)  # Output: Calling add with arguments (5, 3) and keyword arguments {}
+print(result)  # Output: 8
+# In this example, the logger decorator wraps the add function, printing the arguments it was called with before executing the original function.
 
 
 
