@@ -46,7 +46,6 @@ def add(a, b):
 result = add(5, 3)  # Output: Calling add with arguments (5, 3) and keyword arguments {}
 print(result)  # Output: 8
 # In this example, the logger decorator wraps the add function, printing the arguments it was called with before executing the original function.
-
-
+# Decorators can also be used to modify the behavior of a function.
 
 
