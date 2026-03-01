@@ -48,5 +48,13 @@ print(result)  # Output: 8
 # In this example, the logger decorator wraps the add function, printing the arguments it was called with before executing the original function.
 # Decorators can also be used to modify the behavior of a function.
 # For example, you can create a decorator that checks if the user is authenticated before allowing access to a function:
+def requires_authentication(func):
+    def wrapper(user, *args, **kwargs):
+        if not user.is_authenticated:
+            print("User is not authenticated. Access denied.")
+            return None
+        return func(user, *args, **kwargs)
+    return wrapper
+
 
 
