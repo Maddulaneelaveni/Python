@@ -55,6 +55,10 @@ def requires_authentication(func):
             return None
         return func(user, *args, **kwargs)
     return wrapper
-
-
+@requires_authentication
+def view_profile(user):
+    print(f"Viewing profile of {user.name}")   
+# In this example, the requires_authentication decorator checks if the user is authenticated before allowing access to the view_profile function. If the user is not authenticated, it prints an access denied message and returns None. 
+# In summary, decorators are a powerful tool in Python that allow you to modify the behavior of functions in a clean and reusable way. 
+# They can be used for a variety of purposes, including logging, access control, and performance measurement.
 
