@@ -62,3 +62,8 @@ def view_profile(user):
 # In summary, decorators are a powerful tool in Python that allow you to modify the behavior of functions in a clean and reusable way. 
 # They can be used for a variety of purposes, including logging, access control, and performance measurement.
 
+# import functools
+# def my_decorator(func):
+#     @functools.wraps(func)
+#    
+
