@@ -67,4 +67,7 @@ def view_profile(user):
 #     @functools.wraps(func)
 #     def wrapper(*args, **kwargs):
 #         # Do something before calling the original function
+#         result = func(*args, **kwargs)  # Call the original function
+#         # Do something after calling the original function
+#         return result  # Return the result of the original function
 
