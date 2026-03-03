@@ -65,5 +65,6 @@ def view_profile(user):
 # import functools
 # def my_decorator(func):
 #     @functools.wraps(func)
-#    
+#     def wrapper(*args, **kwargs):
+#         # Do something before calling the original function
 
