@@ -70,4 +70,5 @@ def view_profile(user):
 #         result = func(*args, **kwargs)  # Call the original function
 #         # Do something after calling the original function
 #         return result  # Return the result of the original function
+#     return wrapper
 
