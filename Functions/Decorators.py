@@ -76,3 +76,6 @@ def view_profile(user):
 
 # Basic Properties of Decorators:
 # 1. They are functions that take another function as an argument and return a new function
+# 2. They can be applied to any function, regardless of its signature
+# 3. They can be used to modify the behavior of a function without changing its code 
+
