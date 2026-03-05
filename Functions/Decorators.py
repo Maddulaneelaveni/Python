@@ -74,3 +74,5 @@ def view_profile(user):
 
 # Importing functools and using @functools.wraps(func) is important when creating decorators because it preserves the original function's metadata, such as its name, docstring, and other attributes.
 
+# Basic Properties of Decorators:
+# 1. They are functions that take another function as an argument and return a new function
