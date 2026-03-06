@@ -1,0 +1,1 @@
+# Array : An array is a collection of elements stored in a continuous memory location.
