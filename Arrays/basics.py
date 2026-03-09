@@ -5,3 +5,4 @@
 # Arrays can store elements of the same data type, such as integers, floats, or strings.
 # Arrays are commonly used for storing and manipulating data in various applications, such as sorting, searching, and mathematical computations.
 # Example of a static array in Python using the array module:
+import array
