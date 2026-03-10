@@ -6,3 +6,5 @@
 # Arrays are commonly used for storing and manipulating data in various applications, such as sorting, searching, and mathematical computations.
 # Example of a static array in Python using the array module:
 import array
+# Create a static array of integers
+static_array = array.array('i', [1, 2, 3, 4, 5])
