@@ -10,3 +10,5 @@ import array
 static_array = array.array('i', [1, 2, 3, 4, 5])
 print(static_array)  # Output: array('i', [1, 2, 3, 4, 5])
 # Example of a dynamic array in Python using a list:
+# Create a dynamic array (list) of integers
+
