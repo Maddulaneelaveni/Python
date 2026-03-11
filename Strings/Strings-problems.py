@@ -97,7 +97,7 @@ def brackets(s):
 print(brackets("[{}()]"))   # True
 print(brackets("[(])"))    # False
 
-# If n=3 generate all combinations of valid brackets (parentheses) :
+# 9. If n=3, generate all combinations of well-formed parentheses :
 
 def generate(n):
     result = []
