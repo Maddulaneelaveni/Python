@@ -78,7 +78,7 @@ for i, ch in enumerate(s):
     used_char[ch] = i
 
 
-# Valid parantheses :
+# 8. Validate parentheses in a string : 
 
 def brackets(s):
     stack = []
@@ -96,3 +96,19 @@ def brackets(s):
     return len(stack) == 0
 print(brackets("[{}()]"))   # True
 print(brackets("[(])"))    # False
+
+# If n=3 generate all combinations of valid brackets (parentheses) :
+
+def generate(n):
+    result = []
+    def solve(s, open, close):
+        if len(s) == 2*n:
+            result.append(s)
+            return 
+        if open < n:
+            solve(s + "(", open + 1, close) 
+        if close < open:
+            solve(s + ")", open, close + 1)
+    solve("", 0, 0)
+    return result
+print(generate(3))
