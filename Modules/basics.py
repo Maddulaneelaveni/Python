@@ -7,3 +7,5 @@
 # import my_module
 # After importing the module, you can access its functions, classes, and variables using the module name as a prefix. For example, if my_module.py contains a function called my_function(), you can call it like this:
 # my_module.my_function()
+
+# A module file always ends with the .py extension. You can create your own modules by simply writing Python code in a file and saving it with a .py extension. You can then import and use that module in other Python files as needed.
