@@ -6,6 +6,7 @@
 # Arrays are commonly used for storing and manipulating data in various applications, such as sorting, searching, and mathematical computations.
 
 # Example of a static array in Python using the array module:
+
 import array
 # Create a static array of integers
 static_array = array.array('i', [1, 2, 3, 4, 5])
@@ -15,4 +16,6 @@ print(static_array)  # Output: array('i', [1, 2, 3, 4, 5])
 dynamic_array = [1, 2, 3, 4, 5]
 print(dynamic_array)  # Output: [1, 2, 3, 4, 5]
 # In Python, lists are dynamic arrays that can grow and shrink as needed. You can add or remove elements from a list using various methods, such as append(), insert(), remove(), and pop().
+
+
 
