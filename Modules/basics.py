@@ -28,3 +28,10 @@
 # 4. Easier debugging: By breaking code into modules, it becomes easier to identify and fix bugs, as you can isolate specific functionality within a module.
 
 # creating a module :
+# 1. create a new Python file with a .py extension (e.g., my_module.py).
+# 2. Write your code (functions, classes, variables) in the module file.
+# Example :
+def greeting(name):
+    print("Hello", name)
+def add(a,b):
+    return a+b
