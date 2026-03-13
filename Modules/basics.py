@@ -11,3 +11,5 @@
 # A module file always ends with the .py extension. You can create your own modules by simply writing Python code in a file and saving it with a .py extension. You can then import and use that module in other Python files as needed.
 # A module file always ends with: .py
 # Example module files:
+# math.py
+# random.py
