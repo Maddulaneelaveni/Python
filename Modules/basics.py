@@ -24,3 +24,4 @@
 
 # 1. Code Reusability: Modules allow you to reuse code across multiple programs, reducing redundancy and improving efficiency.
 # 2. Organization: Modules help organize code into logical sections, making it easier to read and maintain.
+# 3. Namespace Management: Modules provide a separate namespace for their contents, preventing naming conflicts between different parts of a program.
