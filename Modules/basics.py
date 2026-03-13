@@ -23,3 +23,4 @@
 # Benefits of modules :
 
 # 1. Code Reusability: Modules allow you to reuse code across multiple programs, reducing redundancy and improving efficiency.
+# 2. Organization: Modules help organize code into logical sections, making it easier to read and maintain.
