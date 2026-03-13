@@ -20,4 +20,6 @@
 # my_module.py
 # calculator.py
 
-# 
+# Benefits of modules :
+
+# 1. Code Reusability: Modules allow you to reuse code across multiple programs, reducing redundancy and improving efficiency.
