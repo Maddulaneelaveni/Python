@@ -13,3 +13,6 @@
 # Example module files:
 # math.py
 # random.py
+# datetime.py
+# my_module.py
+# calculator.py
