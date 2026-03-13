@@ -1,5 +1,7 @@
 # What is module ?
 # A module is simply a Python file that contains code which can be reused in other Python programs.
+# So, simply a Module is a python file containing reusable code.
+
 # Modules can contain functions, classes, and variables that can be imported and used in other Python files.
 # Modules are a way to organize and reuse code, making it easier to maintain and share across different projects.
 
@@ -10,9 +12,12 @@
 
 # A module file always ends with the .py extension. You can create your own modules by simply writing Python code in a file and saving it with a .py extension. You can then import and use that module in other Python files as needed.
 # A module file always ends with: .py
+
 # Example module files:
 # math.py
 # random.py
 # datetime.py
 # my_module.py
 # calculator.py
+
+# 
