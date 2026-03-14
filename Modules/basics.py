@@ -49,9 +49,6 @@ def add(a,b):
 # print(result)  # Output: 8
 
 
-# Importing module with alias :
-# You can also import a module with an alias using the as keyword. This allows you to use a shorter name for the module when accessing its functions, classes, or variables.
-# Example of importing a module with an alias:
 
 # import my_module as mm
 # mm.greeting("Neelaveni")  # Output: Hello Neelaveni
