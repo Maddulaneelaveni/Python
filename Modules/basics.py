@@ -36,7 +36,8 @@ def greeting(name):
 def add(a,b):
     return a+b
 
-# 3.
+# 3. Save the module file.
+# 4. Now you can import and use the module in another Python file (e.g., main.py) using the import statement.
 
 # Using a module :
 # to use a module we use the keyword : import
