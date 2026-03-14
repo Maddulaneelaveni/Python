@@ -112,5 +112,9 @@ import calculator
 print(calculator.add(5,3))
 print(calculator.sub(10,4))
 
+# Output:
+# 8
+# 6
+
 
 
