@@ -38,3 +38,26 @@ def add(a,b):
 
 # 3. Save the module file.
 # 4. Now you can import and use the module in another Python file (e.g., main.py) using the import statement.
+
+# Using a module :
+# to use a module we use the keyword : import
+# Example of using the my_module in main.py :
+
+# import my_module
+# my_module.greeting("Neelaveni")  # Output: Hello Alice
+# result = my_module.add(5, 3)
+# print(result)  # Output: 8
+
+
+# Importing module with alias :
+# You can also import a module with an alias using the as keyword. This allows you to use a shorter name for the module when accessing its functions, classes, or variables.
+# Example of importing a module with an alias:
+
+# import my_module as mm
+# mm.greeting("Neelaveni")  # Output: Hello Neelaveni
+# result = mm.add(5, 3)
+# print(result)  # Output: 8
+
+# import numpy as np
+# import pandas as pd
+
