@@ -99,5 +99,7 @@ print(random.randint(1,10)) # Output: 7
 import math
 print(dir(math))  # output :
 
+# Real Example of Module Usage : Calculator Module
+
 
 
