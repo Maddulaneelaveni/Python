@@ -69,4 +69,11 @@ from mymodule import greeting
 greeting("Neelaveni")  # Output: Hello Neelaveni
 
 # Import Multiple Items :
-from mymodule import greeting, add
+from mymodule import greeting, add 
+
+# Import Everything :
+from mymodule import *
+greeting("Neelaveni")  # Output: Hello Neelaveni
+result = add(5, 3)
+print(result)  # Output: 8
+
