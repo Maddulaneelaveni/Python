@@ -66,4 +66,4 @@ def add(a,b):
 # Syntax: from module_name import object
 # Example : 
 from mymodule import greeting
-greeting("Neelaveni") 
+greeting("Neelaveni")  # Output: Hello Neelaveni
