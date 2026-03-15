@@ -67,3 +67,5 @@ def add(a,b):
 # Example : 
 from mymodule import greeting
 greeting("Neelaveni")  # Output: Hello Neelaveni
+
+# Import Multiple Items
