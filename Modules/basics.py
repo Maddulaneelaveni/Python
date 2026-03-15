@@ -63,5 +63,5 @@ def add(a,b):
 
 # Import Only Specific Things
 # You can also import specific functions, classes, or variables from a module using the from keyword. This allows you to use those specific items directly without needing to prefix them with the module name.
-
+# Syntax: from module_name import object
 
