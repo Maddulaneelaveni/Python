@@ -107,5 +107,10 @@ def add(a,b):
 def sub(a,b):
     return a-b
 
+# File: main.py
+import calculator
+print(calculator.add(5,3))
+print(calculator.sub(10,4))
+
 
 
