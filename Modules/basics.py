@@ -87,7 +87,8 @@ print(result)  # Output: 8
 # 5. sys: Provides functions for interacting with the Python interpreter and system-specific parameters.
 
 # Example :
-
+import math
+print(math.sqrt(16))
 
 
 
