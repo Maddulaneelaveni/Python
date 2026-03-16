@@ -88,7 +88,10 @@ print(result)  # Output: 8
 
 # Example :
 import math
-print(math.sqrt(16))
+print(math.sqrt(16))  # Output: 4.0
+
+import random
+print(random.randint(1,10))
 
 
 
