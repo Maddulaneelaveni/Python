@@ -96,6 +96,8 @@ print(random.randint(1,10)) # Output: 7
 # dir() Function :
 # The dir() function is a built-in function in Python that returns a list of the attributes
 # The dir() function shows everything inside a module.
+import math
+print(dir(math))  
 
 
 
