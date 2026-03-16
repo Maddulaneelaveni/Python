@@ -91,7 +91,7 @@ import math
 print(math.sqrt(16))  # Output: 4.0
 
 import random
-print(random.randint(1,10))
+print(random.randint(1,10)) # Output: 7
 
 
 
