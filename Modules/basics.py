@@ -111,10 +111,24 @@ def sub(a,b):
 import calculator
 print(calculator.add(5,3))
 print(calculator.sub(10,4))
-
 # Output:
 # 8
 # 6
+
+# Summary
+
+# Module = Python file with reusable code
+# Main concepts:
+
+#Concept         	          Example
+# Create module	             mymodule.py
+# Import module	             import mymodule
+# Call function	              mymodule.function()
+# Alias	                      import mymodule as mx
+# Import specific item	       from mymodule import function
+# Built-in modules	            math, random, datetime
+# List module content	         dir(module)
+
 
 
 
