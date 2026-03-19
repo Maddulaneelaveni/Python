@@ -130,6 +130,8 @@ print(calculator.sub(10,4))
 # List module content	         dir(module)
 
 # Difference between module and package :
+# Module → single Python file that contains reusable code (functions, classes, variables).
+# Package → collection of modules
 
 
 
