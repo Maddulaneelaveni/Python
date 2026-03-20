@@ -1,0 +1,5 @@
+What is a Package?
+A package is a folder that contains multiple Python modules.
+👉 Simple idea:
+Module = single file
+Package = folder of files (modules)
