@@ -3,3 +3,8 @@ A package is a folder that contains multiple Python modules.
 👉 Simple idea:
 Module = single file
 Package = folder of files (modules)
+
+Why Packages?
+When your project grows:
+Too many modules → messy
+So we group them into packages
