@@ -8,3 +8,8 @@ Why Packages?
 When your project grows:
 Too many modules → messy
 So we group them into packages
+
+module1.py :
+
+def add(a, b):
+    return a + b
