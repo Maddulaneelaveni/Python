@@ -13,3 +13,7 @@ module1.py :
 
 def add(a, b):
     return a + b
+
+module2.py :
+def sub(a, b):
+    return a - b
