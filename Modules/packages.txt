@@ -9,8 +9,8 @@ When your project grows:
 Too many modules → messy
 So we group them into packages
 
+Example :
 module1.py :
-
 def add(a, b):
     return a + b
 
@@ -21,3 +21,8 @@ def sub(a, b):
 main.py :
 from mypackage import module1
 print(module1.add(5, 3))
+
+What is __init__.py?
+This file tells Python:
+👉 “This folder is a package”
+Even if empty, it is important (especially for understanding structure).
