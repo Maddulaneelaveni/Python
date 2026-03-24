@@ -17,3 +17,7 @@ def add(a, b):
 module2.py :
 def sub(a, b):
     return a - b
+
+main.py :
+from mypackage import module1
+print(module1.add(5, 3))
