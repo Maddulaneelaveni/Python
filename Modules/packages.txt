@@ -26,3 +26,8 @@ What is __init__.py?
 This file tells Python:
 👉 “This folder is a package”
 Even if empty, it is important (especially for understanding structure).
+
+name == "main" : Control execution → clean design
+
+With sys.path :
+Understand imports → debugging ✅
