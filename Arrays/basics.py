@@ -18,4 +18,4 @@ print(dynamic_array)  # Output: [1, 2, 3, 4, 5]
 # In Python, lists are dynamic arrays that can grow and shrink as needed. You can add or remove elements from a list using various methods, such as append(), insert(), remove(), and pop().
 
 
-
+ 

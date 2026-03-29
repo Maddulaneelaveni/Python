@@ -3,3 +3,6 @@ Python has a set of built-in math functions, including an extensive math module,
 1. The min() and max() functions can be used to find the lowest or highest value in an iterable
 2. The abs() function returns the absolute (positive) value of the specified number.
 3. The pow(x, y) function returns the value of x to the power of y (xy).
+
+Python has also a built-in module called math, which extends the list of mathematical functions.
+To use it, you must import the math module: import math
