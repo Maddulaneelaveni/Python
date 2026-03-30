@@ -6,3 +6,8 @@ Python has a set of built-in math functions, including an extensive math module,
 
 Python has also a built-in module called math, which extends the list of mathematical functions.
 To use it, you must import the math module: import math
+
+Example :
+import math
+x = math.sqrt(64)
+print(x)
