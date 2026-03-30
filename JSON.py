@@ -48,8 +48,7 @@ print(person_from_file)
 # JSON	         Python
 # Object	     dict
 # Array	         list
-# true/false	True/False
-# null	         None
+
 
 
 
