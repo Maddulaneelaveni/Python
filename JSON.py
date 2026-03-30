@@ -41,7 +41,8 @@ print(person_from_file)
 
 # JSON is a powerful format for data interchange and is widely used in web development, APIs, and data storage.
 
-
+# JSON vs Dictionaries:
+# JSON is a string format, while a dictionary is a Python data structure.
 
 
 
