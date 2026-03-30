@@ -13,4 +13,4 @@ x = math.sqrt(64)
 print(x)
 
 4. The math.ceil() method rounds a number upwards to its nearest integer, and the math.floor() method rounds a number downwards to its nearest integer, and returns the result:
-
+Example :
