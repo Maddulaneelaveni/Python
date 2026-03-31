@@ -19,4 +19,10 @@
 import json
 
 # Convert Python object to JSON string
+person = {
+    "name": "Neelaveni",
+    "age": 22,
+    "skills": ["Python", "SQL"],
+    "is_student": False
+}
 
