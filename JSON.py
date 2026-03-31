@@ -6,7 +6,7 @@
 # Language-independent
 # Widely used in APIs, web apps, data pipelines
 
-
+# Example of JSON data:
 
 {
   "name": "Neelaveni",
