@@ -39,6 +39,8 @@ with open('person.json', 'r') as file:
     person_from_file = json.load(file)
 print(person_from_file)
 
+# JSON is a powerful format for data interchange and is widely used in web development, APIs, and data storage.
+
 
 
 
