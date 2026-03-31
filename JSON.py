@@ -14,3 +14,6 @@
   "skills": ["Python", "SQL"],
   "is_student": false
 }
+
+# In Python, we can work with JSON using the built-in `json` module.
+import json
