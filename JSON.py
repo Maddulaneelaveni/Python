@@ -37,7 +37,8 @@ with open('person.json', 'w') as file:
 # Reading JSON from a file
 with open('person.json', 'r') as file:
     person_from_file = json.load(file)
-    
+print(person_from_file)
+
 
 
 
