@@ -5,3 +5,12 @@
 # Human-readable
 # Language-independent
 # Widely used in APIs, web apps, data pipelines
+
+
+
+{
+  "name": "Neelaveni",
+  "age": 22,
+  "skills": ["Python", "SQL"],
+  "is_student": false
+}
