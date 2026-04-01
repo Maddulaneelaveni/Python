@@ -28,5 +28,8 @@ person = {
 json_string = json.dumps(person)
 print(json_string)
 # Convert JSON string back to Python object
+person_dict = json.loads(json_string)
+print(person_dict)
+
 
 
