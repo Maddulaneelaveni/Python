@@ -30,6 +30,8 @@ print(json_string)
 # Convert JSON string back to Python object
 person_dict = json.loads(json_string)
 print(person_dict)
+# We can also read and write JSON data from files
+
 
 
 
