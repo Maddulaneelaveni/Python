@@ -25,4 +25,7 @@ person = {
     "skills": ["Python", "SQL"],
     "is_student": False
 }
+json_string = json.dumps(person)
+print(json_string)
+
 
