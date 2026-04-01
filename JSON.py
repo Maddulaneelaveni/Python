@@ -34,7 +34,11 @@ print(person_dict)
 # Writing JSON to a file
 with open('person.json', 'w') as file:
     json.dump(person, file)
+# Reading JSON from a file
+with open('person.json', 'r') as file:
+    person_from_file = json.load(file)
     
+
 
 
 
