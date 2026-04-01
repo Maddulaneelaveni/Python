@@ -31,6 +31,8 @@ print(json_string)
 person_dict = json.loads(json_string)
 print(person_dict)
 # We can also read and write JSON data from files
+# Writing JSON to a file
+
 
 
 
