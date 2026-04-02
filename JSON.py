@@ -43,7 +43,7 @@ print(person_from_file)
 
 # JSON vs Dictionaries:
 # JSON is a string format, while a dictionary is a Python data structure.
-
+# JSON keys must be strings, while dictionary keys can be of any immutable type.
 
 
 
