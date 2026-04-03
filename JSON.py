@@ -59,3 +59,5 @@ json_data = json.dumps(data)
 print(json_data)
 print(type(json_data))
 
+# Output :
+
