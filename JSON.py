@@ -53,4 +53,9 @@ print(person_from_file)
 
 
 # Convert JSON → Python (Deserialization)
+import json
+data = {"name": "John", "age": 25}
+json_data = json.dumps(data)
+print(json_data)
+print(type(json_data))
 
