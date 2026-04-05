@@ -106,8 +106,10 @@ print(pretty_json)
         "SQL"
     ]
 }
+
 # The `indent` parameter in `json.dumps()` specifies the number of spaces to use for indentation, making the JSON output more readable.
 json.dumps(data, indent=4)
+# Output :
 
 
 
