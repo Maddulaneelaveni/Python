@@ -93,6 +93,12 @@ print(data)
 # 5. Pretty Printing (Formatting JSON) : it is used to format JSON data in a more readable way.
 # Makes JSON readable
 # Used in debugging & APIs
+import json
+data = {"name": "Neelaveni", "age": 22, "skills": ["Python", "SQL"]}
+pretty_json = json.dumps(data, indent=4)
+print(pretty_json)
+
+
 
 
 
