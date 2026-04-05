@@ -60,4 +60,6 @@ print(json_data)
 print(type(json_data))
 
 # Output :
+{"name": "John", "age": 25}
+<class 'str'>
 
