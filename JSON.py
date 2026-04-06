@@ -77,6 +77,10 @@ import json
 data = {"name": "Neelaveni", "age": 22}
 with open("data.json", "w") as f:
     json.dump(data, f)
+# Output :
+# A file named "data.json" will be created with the following content:
+{"name": "Neelaveni", "age": 22}
+
 
 # Reading JSON from a file : it is used to read JSON data from a file.
 import json
