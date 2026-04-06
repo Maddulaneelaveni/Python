@@ -90,5 +90,11 @@ print(data)
 # Output :
 {'name': 'Neelaveni', 'age': 22}
 
+# 5. Pretty Printing (Formatting JSON) : it is used to format JSON data in a more readable way.
+# Makes JSON readable
+# Used in debugging & APIs
+
+
+
 
 
