@@ -78,5 +78,11 @@ data = {"name": "Neelaveni", "age": 22}
 with open("data.json", "w") as f:
     json.dump(data, f)
 
+# Reading JSON from a file : it is used to read JSON data from a file.
+import json
+with open("data.json", "r") as f:
+    data = json.load(f)
+print(data)
+
 
 
