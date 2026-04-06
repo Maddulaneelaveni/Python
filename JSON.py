@@ -63,3 +63,5 @@ print(type(json_data))
 {"name": "John", "age": 25}
 <class 'str'>
 
+# Convert Python → JSON (Serialization) :
+
