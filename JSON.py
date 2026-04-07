@@ -66,4 +66,6 @@ print(type(json_data))
 # Convert Python → JSON (Serialization) :
 import json
 data = {"name": "John", "age": 25}
+json_data = json.dumps(data)
+print(json_data)
 
