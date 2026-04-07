@@ -68,4 +68,6 @@ import json
 data = {"name": "John", "age": 25}
 json_data = json.dumps(data)
 print(json_data)
+# Output :
+{"name": "John", "age": 25}
 
