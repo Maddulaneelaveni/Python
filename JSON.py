@@ -64,4 +64,6 @@ print(type(json_data))
 <class 'str'>
 
 # Convert Python → JSON (Serialization) :
+import json
+data = {"name": "John", "age": 25}
 
