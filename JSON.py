@@ -72,6 +72,11 @@ print(json_data)
 {"name": "John", "age": 25}
 
 # Working with Files :
+# Writing JSON to a file : it is used to write JSON data to a file.
+import json
+data = {"name": "Neelaveni", "age": 22}
+with open("data.json", "w") as f:
+    json.dump(data, f)
 
 
 
