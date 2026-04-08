@@ -1,0 +1,2 @@
+What is OOPS (Object-Oriented Programming)?
+OOPS (Object-Oriented Programming System) is a programming approach where you structure your code using objects and classes instead of just functions and logic.
