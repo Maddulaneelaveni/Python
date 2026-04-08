@@ -9,3 +9,6 @@ Class = Car
 Objects = Audi, BMW, Tesla
 
 Core Concepts of OOPS :
+
+1. 🧱 Class
+A class is a template that defines properties (variables) and behaviors (methods). or a blueprint of an object.
