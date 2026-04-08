@@ -7,3 +7,5 @@ An object is a real-world instance created from that blueprint 🚗
 👉 Example:
 Class = Car
 Objects = Audi, BMW, Tesla
+
+Core Concepts of OOPS :
