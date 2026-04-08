@@ -12,3 +12,7 @@ Core Concepts of OOPS :
 
 1. 🧱 Class
 A class is a template that defines properties (variables) and behaviors (methods). or a blueprint of an object.
+Example : 
+class Car:
+    def start(self):
+        print("Car started")
