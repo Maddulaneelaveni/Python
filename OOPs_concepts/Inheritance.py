@@ -8,3 +8,5 @@ class Dog(Animal):
         print("Barking")
 d = Dog()
 d.eat()  
+d.sleep()  
+d.bark()  
