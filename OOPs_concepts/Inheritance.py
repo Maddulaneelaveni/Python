@@ -37,6 +37,7 @@ d.bark()
 # Types of Inheritance:
 
 # 1. Single Inheritance: One child inherits from one parent.
+# Example problem:
 class A:
     def method_A(self): # This is the parent class method
         print("Class A") # This is the parent class
