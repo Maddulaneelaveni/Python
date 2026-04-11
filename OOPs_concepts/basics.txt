@@ -16,3 +16,9 @@ Example :
 class Car:
     def start(self):
         print("Car started")
+
+2. Object
+An object is an instance of a class.
+EX:
+c1 = Car()
+c1.start()
