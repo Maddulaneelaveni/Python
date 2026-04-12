@@ -22,3 +22,8 @@ An object is an instance of a class.
 EX:
 c1 = Car()
 c1.start()
+
+3. Attributes (Variables / Properties) :
+
+Attributes are the data or variables that belong to a class or object.
+They describe the state (properties) of an object.
