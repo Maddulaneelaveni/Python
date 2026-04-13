@@ -47,3 +47,5 @@ Here:
 study() is a method
 ###Types of Methods:
 1.Instance methods → use self
+2.Class methods → use cls
+3.Static methods → no self or cls
