@@ -27,3 +27,9 @@ c1.start()
 
 Attributes are the data or variables that belong to a class or object.
 They describe the state (properties) of an object.
+
+Ex:
+class Student:
+    def __init__(self, name, age):
+        self.name = name   # attribute
+        self.age = age     # attribute
