@@ -33,3 +33,6 @@ class Student:
     def __init__(self, name, age):
         self.name = name   # attribute
         self.age = age     # attribute
+    
+Here:
+name and age are attributes
