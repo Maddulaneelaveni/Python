@@ -46,4 +46,4 @@ class Student:
 Here:
 study() is a method
 ###Types of Methods:
-Instance methods → use self
+1.Instance methods → use self
