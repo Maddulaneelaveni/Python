@@ -45,3 +45,5 @@ class Student:
         print("Student is studying")
 Here:
 study() is a method
+###Types of Methods:
+Instance methods → use self
