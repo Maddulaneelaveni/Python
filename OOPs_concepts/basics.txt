@@ -40,3 +40,6 @@ name and age are attributes
 4. Methods (Functions inside class) :
 Methods are functions defined inside a class that describe the behavior (actions) of an object.
 ## Ex:
+class Student:
+    def study(self):
+        print("Student is studying")
