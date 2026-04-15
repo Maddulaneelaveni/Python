@@ -36,3 +36,8 @@ class Student:
     
 Here:
 name and age are attributes
+
+Types of Attributes :
+
+Instance attributes → unique for each object (self.name)
+Class attributes → shared by all objects
