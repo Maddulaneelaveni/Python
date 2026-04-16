@@ -37,5 +37,6 @@ name and age are attributes
 1.Instance attributes → unique for each object (self.name)
 2.Class attributes → shared by all objects
 
-4. Methods (Functions inside class)
+4. Methods (Functions inside class) :
+Methods are functions defined inside a class that describe the behavior (actions) of an object.
 
