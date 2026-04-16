@@ -39,5 +39,5 @@ name and age are attributes
 
 Types of Attributes :
 
-Instance attributes → unique for each object (self.name)
-Class attributes → shared by all objects
+1.Instance attributes → unique for each object (self.name)
+2.Class attributes → shared by all objects
