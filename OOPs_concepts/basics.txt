@@ -24,20 +24,16 @@ c1 = Car()
 c1.start()
 
 3. Attributes (Variables / Properties) :
-
 Attributes are the data or variables that belong to a class or object.
 They describe the state (properties) of an object.
-
-Ex:
+#Ex:
 class Student:
     def __init__(self, name, age):
         self.name = name   # attribute
         self.age = age     # attribute
-    
 Here:
 name and age are attributes
-
-Types of Attributes :
-
+## Types of Attributes :
 1.Instance attributes → unique for each object (self.name)
 2.Class attributes → shared by all objects
+
