@@ -63,3 +63,15 @@ s1 = Student("Neelaveni", 21)
 When s1 is created:
 __init__() runs automatically
 Values are assigned to attributes
+
+
+#### OVERALL EXAMPLE :
+class Student:
+    college = "ABC College"   # class attribute
+    def __init__(self, name, age):  # constructor
+        self.name = name            # attribute
+        self.age = age              # attribute
+    def display(self):              # method
+        print(self.name, self.age)
+s1 = Student("Neelaveni", 21)
+s1.display()
