@@ -20,6 +20,8 @@ obj.display()   # child class method
 # This is parent class
 # This is child class
 
+# Example problem:
+
 # Types of Inheritance:
 
 # 1. Single Inheritance: One child inherits from one parent.
@@ -63,15 +65,4 @@ c.method_A() # This will call the method from class A
 
 
 
-class Animal:
-    def eat(self):
-        print("Eating")
-    def sleep(self):
-        print("Sleeping")
-class Dog(Animal):   
-    def bark(self):
-        print("Barking")
-d = Dog()
-d.eat()  
-d.sleep()  
-d.bark()  
+ 
