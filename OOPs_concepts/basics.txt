@@ -52,3 +52,5 @@ study() is a method
 
 4.Constructors (Special Method) :
 A constructor is a special method used to initialize an object automatically when it is created.
+In Python, the constructor is:
+__init__()
