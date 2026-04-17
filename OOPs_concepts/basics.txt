@@ -51,3 +51,4 @@ study() is a method
 3.Static methods → no self or cls
 
 4.Constructors (Special Method) :
+A constructor is a special method used to initialize an object automatically when it is created.
