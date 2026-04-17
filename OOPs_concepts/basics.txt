@@ -60,3 +60,6 @@ class Student:
         self.name = name
         self.age = age
 s1 = Student("Neelaveni", 21)
+When s1 is created:
+__init__() runs automatically
+Values are assigned to attributes
