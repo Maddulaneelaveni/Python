@@ -47,6 +47,9 @@ class C(A, B): # This is the child class that inherits from both class A and cla
     def method_C(self): # This is the child class method
         print("Class C")
     pass # The pass statement is used here to indicate that the class C does not have any additional attributes or methods of its own, but it still inherits from both class A and class B.
+c = C()
+c.method_A() # This will call the method from class A   
+
 
 
 
