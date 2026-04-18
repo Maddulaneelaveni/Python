@@ -5,6 +5,8 @@
 # Reducing redundancy
 # Creating a hierarchical relationship
 
+# Basic Syntax:
+
 
 
 
