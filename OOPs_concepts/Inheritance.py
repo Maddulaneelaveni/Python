@@ -2,7 +2,7 @@
 # This promotes code reusability and establishes a natural hierarchical relationship between classes.
 # It helps in:
 # Code reusability
-Reducing redundancy
+# Reducing redundancy
 Creating a hierarchical relationship
 
 
