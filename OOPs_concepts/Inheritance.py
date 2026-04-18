@@ -15,6 +15,7 @@ class Child(Parent):
 obj = Child()
 obj.show()      # inherited method
 obj.display()   # child class method
+# In the above example, the Child class inherits from the Parent class, allowing it to use the show() method defined in the Parent class. The Child class can also have its own methods, such as display().
 
 
 
