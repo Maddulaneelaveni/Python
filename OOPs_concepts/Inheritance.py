@@ -20,6 +20,8 @@ obj.display()   # child class method
 # This is parent class
 # This is child class
 
+# Types of Inheritance:
+
 
 
 
