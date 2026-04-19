@@ -22,7 +22,7 @@ obj.display()   # child class method
 
 # Types of Inheritance:
 
-# 1. Single Inheritance:
+# 1. Single Inheritance: One child inherits from one parent.
 
 
 
