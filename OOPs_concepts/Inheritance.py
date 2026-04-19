@@ -37,7 +37,14 @@ b.method_B() # This will call the method from the child class B
 # Class B
 
 # 2. Multilevel Inheritance: A child class inherits from a parent class, and then another child class inherits from that child class.(Multiple Inheritance: A child class inherits from more than one parent class.)
-
+class A:
+    def method_A(self):
+        print("Class A")
+class B:
+    def method_B(self):
+        print("Class B")
+class C(A, B):
+    pass
 
 
 
