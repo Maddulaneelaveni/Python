@@ -33,6 +33,9 @@ b = B()
 b.method_A() # This will call the method from the parent class A
 b.method_B() # This will call the method from the child class B
 # Output:
+# Class A
+# Class B
+
 
 
 
