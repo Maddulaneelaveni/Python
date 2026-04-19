@@ -23,6 +23,12 @@ obj.display()   # child class method
 # Types of Inheritance:
 
 # 1. Single Inheritance: One child inherits from one parent.
+class A:
+    def method_A(self):
+        print("Class A") # This is the parent class
+class B(A):
+    def method_B(self):
+        print("Class B") # 
 
 
 
