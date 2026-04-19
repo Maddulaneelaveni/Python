@@ -24,11 +24,11 @@ obj.display()   # child class method
 
 # 1. Single Inheritance: One child inherits from one parent.
 class A:
-    def method_A(self):
+    def method_A(self): # This is the parent class method
         print("Class A") # This is the parent class
 class B(A):
-    def method_B(self):
-        print("Class B") # 
+    def method_B(self): # This is the child class method
+        print("Class B") # This is the child class that inherits from class A
 
 
 
