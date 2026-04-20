@@ -66,7 +66,7 @@ class C(A, B): # This is the child class that inherits from both class A and cla
 c = C()
 c.method_A() # This will call the method from class A   
 
-# 3.
+# 3. Multilevel Inheritance :  Chain of inheritance.
 
 
 
