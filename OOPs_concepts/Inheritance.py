@@ -51,7 +51,7 @@ b.method_B() # This will call the method from the child class B
 # Class A
 # Class B
 
-# 2. Multilevel Inheritance: A child class inherits from a parent class, and then another child class inherits from that child class.(Multiple Inheritance: A child class inherits from more than one parent class.)
+# 2. Multiple Inheritance: One child inherits from multiple parents. 
 # Example problem :
 class A:
     def method_A(self): # This is the parent class method
@@ -65,6 +65,8 @@ class C(A, B): # This is the child class that inherits from both class A and cla
     pass # The pass statement is used here to indicate that the class C does not have any additional attributes or methods of its own, but it still inherits from both class A and class B.
 c = C()
 c.method_A() # This will call the method from class A   
+
+# 3.
 
 
 
