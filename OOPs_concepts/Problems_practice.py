@@ -38,3 +38,21 @@ e2 = Employee("Anu", "HR", 40000)
 # Display details
 e1.show_details()
 e2.show_details()
+
+# 3.Encapusalation
+class BankAccount:
+    def __init__(self):
+        self.__balance = 0   # Private variable (cannot be accessed directly)
+    # Method to add money
+    def deposit(self, amount):
+        self.__balance += amount   # Increase balance
+    # Method to withdraw money
+    def withdraw(self, amount):
+        self.__balance -= amount   # Decrease balance
+    # Method to check balance
+    def check_balance(self):
+        print("Balance:", self.__balance)
+acc = BankAccount()
+acc.deposit(1000)
+acc.withdraw(200)
+acc.check_balance()
