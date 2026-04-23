@@ -71,3 +71,18 @@ class Student(Person):
 s = Student("Neelaveni", 21, 85)
 s.display()
 print("Marks:", s.marks)
+
+# 5. Multilevel Inheritance 
+class Animal:
+    def eat(self):
+        print("Eating")   
+class Dog(Animal):
+    def bark(self):
+        print("Barking")  
+class Puppy(Dog):
+    def weep(self):
+        print("Weeping") 
+p = Puppy()
+p.eat()   
+p.bark()  
+p.weep()  
