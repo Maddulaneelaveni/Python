@@ -86,3 +86,25 @@ p = Puppy()
 p.eat()   
 p.bark()  
 p.weep()  
+
+
+# 6. Encapsulation (Validation Example)
+
+class Student:
+    def __init__(self):
+        self.__marks = 0  # Private variable
+
+    def set_marks(self, marks):
+        if marks >= 0:
+            self.__marks = marks
+        else:
+            print("Marks cannot be negative")
+
+    def get_marks(self):
+        return self.__marks
+
+s = Student()
+s.set_marks(85)
+print("Marks:", s.get_marks())
+
+s.set_marks(-10)  # Invalid case
