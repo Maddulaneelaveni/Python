@@ -89,6 +89,11 @@ p.weep()
 
 
 # 6. Encapsulation (Validation Example)
+# Create class Student
+# Private variable: marks
+# Create method: set_marks()
+# Condition: Marks should not be negative.
+# Create method: get_marks()
 
 class Student:
     def __init__(self):
