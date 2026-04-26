@@ -105,3 +105,7 @@ class Student:
             print("Marks cannot be negative")
     def get_marks(self):
         return self.__marks
+s = Student()
+s.set_marks(85)
+print("Marks:", s.get_marks())
+s.set_marks(-10)  # Invalid case
