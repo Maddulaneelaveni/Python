@@ -109,3 +109,6 @@ s = Student()
 s.set_marks(85)
 print("Marks:", s.get_marks())
 s.set_marks(-10)  # Invalid case
+
+
+# 7. Polymorphism (Method Overriding)
