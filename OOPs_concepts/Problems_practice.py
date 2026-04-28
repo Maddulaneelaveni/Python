@@ -114,6 +114,5 @@ s.set_marks(-10)  # Invalid case
 # 7. Polymorphism (Method Overriding)
 # Create Parent class: Shape
 # Method: draw()
-# Create Child classes: Circle
-Rectangle
+# Create Child classes: Circle ,Rectangle
 Override draw() method.
