@@ -134,7 +134,7 @@ r.draw()
 
 # 8. Polymorphism (Operator Polymorphism)
 # Create class Calculator
-Create method:
+# Create method:
 add()
 It should:
 Add 2 numbers
