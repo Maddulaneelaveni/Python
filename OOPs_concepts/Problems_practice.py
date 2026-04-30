@@ -136,7 +136,7 @@ r.draw()
 # Create class Calculator
 # Create method:
 # add()
-It should:
-Add 2 numbers
-Add 3 numbers
-(Hint: Use default arguments)
+# It should:
+# Add 2 numbers
+# Add 3 numbers
+# (Hint: Use default arguments)
