@@ -140,3 +140,11 @@ r.draw()
 # Add 2 numbers
 # Add 3 numbers
 # (Hint: Use default arguments)
+
+class Calculator:
+    def add(self, a, b, c=0):
+        return a + b + c
+calc = Calculator()
+
+print(calc.add(2, 3))       # 2 numbers
+print(calc.add(2, 3, 4))    # 3 numbers
