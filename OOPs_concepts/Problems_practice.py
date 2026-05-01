@@ -150,3 +150,11 @@ print(calc.add(2, 3, 4))    # 3 numbers
 
 
 # 9.Abstraction
+# Create Abstract Class:
+#Vehicle
+#Abstract Method:
+#start()
+#Create child classes:
+#Car
+#Bike
+#Implement start() method
