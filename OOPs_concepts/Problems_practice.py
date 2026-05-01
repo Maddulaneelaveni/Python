@@ -147,3 +147,6 @@ class Calculator:
 calc = Calculator()
 print(calc.add(2, 3))       # 2 numbers
 print(calc.add(2, 3, 4))    # 3 numbers
+
+
+# 9.Abstraction
