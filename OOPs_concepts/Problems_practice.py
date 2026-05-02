@@ -174,3 +174,29 @@ c = Car()
 b = Bike()
 c.start()
 b.start()
+
+
+# 10.Real-Time OOP Problem (All Concepts)
+
+class Employee:
+    def __init__(self, salary):
+        self.__salary = salary  # Private variable
+    def set_salary(self, salary):
+        if salary > 0:
+            self.__salary = salary
+    def get_salary(self):
+        return self.__salary
+    def work(self):
+        print("Employee is working")
+class Developer(Employee):
+    def work(self):
+        print("Developer is writing code")
+class Manager(Employee):
+    def work(self):
+        print("Manager is managing team")
+d = Developer(50000)
+m = Manager(70000)
+d.work()
+print("Developer Salary:", d.get_salary())
+m.work()
+print("Manager Salary:", m.get_salary())
